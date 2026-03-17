@@ -79,25 +79,27 @@ export default function SourcesHistoryTabs({
       {/* Sources content */}
       {tab === "sources" && (
         <div>
-          <p className="text-sm text-[#767474] mb-3">
+          <p className="text-[15px] text-[#767474] mb-5 leading-relaxed">
             Our experts continually monitor the health and wellness space, and
             we update our articles when new information becomes available.
           </p>
           {sources && sources.length > 0 && (
-            <ul className="space-y-2">
+            <ul className="space-y-4">
               {sources.map((source, i) => (
-                <li key={i} className="text-sm">
-                  {source.url ? (
+                <li
+                  key={i}
+                  className="relative pl-5 text-[15px] leading-relaxed before:content-[''] before:absolute before:left-0 before:top-[10px] before:w-[6px] before:h-[6px] before:rounded-full before:bg-[#231f20]"
+                >
+                  <span className="text-[#231f20]">{source.title}</span>
+                  {source.url && (
                     <a
                       href={source.url}
-                      className="text-[#02838d] underline hover:text-[#08565c]"
+                      className="block text-[#02838d] hover:text-[#08565c] break-all mt-0.5"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {source.title}
+                      {source.url}
                     </a>
-                  ) : (
-                    <span className="text-[#767474]">{source.title}</span>
                   )}
                 </li>
               ))}
@@ -108,15 +110,15 @@ export default function SourcesHistoryTabs({
 
       {/* History content */}
       {tab === "history" && (
-        <div className="relative pl-7 border-l-2 border-[#02838d] space-y-5">
+        <div className="relative pl-6 border-l-2 border-[#02838d] space-y-5">
           <div className="relative">
-            <div className="absolute -left-[21px] top-[5px] w-[12px] h-[12px] rounded-full bg-[#02838d]" />
+            <div className="absolute -left-[31px] top-[5px] w-[12px] h-[12px] rounded-full bg-[#02838d]" />
             <p className="font-bold text-[15px] text-[#231f20]">
               Current Version
             </p>
           </div>
           <div className="relative">
-            <div className="absolute -left-[21px] top-[5px] w-[12px] h-[12px] rounded-full border-2 border-[#02838d] bg-white" />
+            <div className="absolute -left-[31px] top-[5px] w-[12px] h-[12px] rounded-full border-2 border-[#02838d] bg-white" />
             <p className="font-bold text-[15px] text-[#231f20]">
               {writtenDate}
             </p>
@@ -125,7 +127,7 @@ export default function SourcesHistoryTabs({
           </div>
           {reviewedBy && (
             <div className="relative">
-              <div className="absolute -left-[21px] top-[5px] w-[12px] h-[12px] rounded-full border-2 border-[#02838d] bg-white" />
+              <div className="absolute -left-[31px] top-[5px] w-[12px] h-[12px] rounded-full border-2 border-[#02838d] bg-white" />
               <p className="font-bold text-[15px] text-[#231f20]">
                 {reviewedDate}
               </p>
