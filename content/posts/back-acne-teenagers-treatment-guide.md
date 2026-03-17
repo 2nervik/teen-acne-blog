@@ -71,7 +71,7 @@ Let's be practical: you can't easily see your back, and you definitely can't rea
 
 Your face might get sweaty during gym class, but your back bears the brunt of backpack straps, sports equipment, tight athletic shirts, and chair backs — all day long. This constant friction combined with trapped sweat creates a perfect environment for breakouts, a specific type of acne called *acne mechanica* that we'll cover in detail below.
 
-![Diagram showing the difference between facial and back skin structure, highlighting thicker skin and larger oil glands on the back](/images/placeholder-back-acne-1.png)
+![Diagram showing the difference between facial and back skin structure, highlighting thicker skin and larger oil glands on the back](/images/back-acne-causes.png)
 
 ## What Causes Back Acne in Teenagers
 
@@ -130,7 +130,7 @@ Not all back acne looks the same, and knowing what type you're dealing with help
 
 **Important:** If you have primarily nodules or cysts on your back, over-the-counter treatments alone are unlikely to be enough. This is a sign that you should see a dermatologist sooner rather than later.
 
-![Illustration showing the different types of back acne: blackheads, whiteheads, papules, pustules, nodules, and cysts](/images/placeholder-back-acne-2.png)
+![Illustration showing the different types of back acne: blackheads, whiteheads, papules, pustules, nodules, and cysts](/images/back-acne-clothing-tips.png)
 
 ## The Best Shower Routine for Back Acne
 
@@ -194,7 +194,7 @@ Tea tree oil has some antimicrobial properties, and a few small studies suggest 
 
 Over-the-counter adapalene (Differin, 0.1%) can be used on the back, though applying it evenly to a large area is tricky. Retinoids work by increasing skin cell turnover and preventing pores from becoming clogged in the first place. They're especially effective for comedonal acne (blackheads and whiteheads). If you go this route, apply a thin layer at night and always use sunscreen — retinoids make your skin more sensitive to UV light.
 
-![Teenager applying medicated body wash to their back in the shower, demonstrating proper technique](/images/placeholder-back-acne-3.png)
+![Teenager applying medicated body wash to their back in the shower, demonstrating proper technique](/images/back-acne-shower-routine.png)
 
 ## Lifestyle Changes That Actually Help
 
@@ -256,7 +256,7 @@ A dermatologist has access to treatments that are significantly more powerful th
 
 **For parents:** If your teen is dealing with painful back acne, don't wait. Early treatment — especially for cystic acne — can prevent permanent scarring. A dermatologist visit isn't an overreaction; it's a proactive step that can save your teen years of physical and emotional discomfort.
 
-![Teenager consulting with a dermatologist about their back acne treatment plan](/images/placeholder-back-acne-4.png)
+![Teenager consulting with a dermatologist about their back acne treatment plan](/images/back-acne-when-to-see-doctor.png)
 
 ## The Emotional Side of Back Acne
 

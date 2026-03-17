@@ -70,7 +70,7 @@ Because teenage skin tends to be oilier than adult skin but also more reactive a
 
 That's exactly what we're going to build.
 
-![Flat lay of a simple skincare routine with cleanser, moisturizer, sunscreen, and treatment products](/images/placeholder-skincare-routine-1.png)
+![Flat lay of a simple skincare routine with cleanser, moisturizer, sunscreen, and treatment products](/images/skincare-routine-morning.png)
 
 ## Your Complete Morning Routine
 
@@ -155,7 +155,7 @@ Salicylic acid tends to be better tolerated than benzoyl peroxide, making it a g
 
 **Can you use both?** Yes, but not at the same time. A common approach is to use salicylic acid cleanser in the evening and apply benzoyl peroxide as a leave-on treatment, or to alternate nights. If you try to layer them directly on top of each other, you'll likely end up with dry, flaking, irritated skin.
 
-![Close-up of someone applying a thin layer of treatment product to their face](/images/placeholder-skincare-routine-2.png)
+![Close-up of someone applying a thin layer of treatment product to their face](/images/skincare-routine-evening.png)
 
 ### Step 3: Moisturizer
 
@@ -196,7 +196,7 @@ A kaolin or bentonite clay mask can absorb excess oil and give your pores a deep
 
 Don't leave masks on until they crack and feel tight. That means you've over-dried your skin. Remove them while they're still slightly damp.
 
-![A teen applying a clay mask to their T-zone area](/images/placeholder-skincare-routine-3.png)
+![A teen applying a clay mask to their T-zone area](/images/skincare-routine-patch-test.png)
 
 ## Building Your Routine: The First 4 Weeks
 
@@ -243,7 +243,7 @@ Trying a new product every week gives nothing time to work and makes it impossib
 
 Your pillowcase, phone screen, hands, and anything else that contacts your face regularly can transfer oil, bacteria, and dirt to your skin. Swap your pillowcase every two to three days (or flip it over -- that buys you an extra night). Wipe down your phone daily. And keep your hands away from your face during the day.
 
-![A clean, organized bathroom shelf with minimal skincare products lined up neatly](/images/placeholder-skincare-routine-4.png)
+![A clean, organized bathroom shelf with minimal skincare products lined up neatly](/images/skincare-routine-mistakes.png)
 
 ## Lifestyle Factors That Support Clear Skin
 

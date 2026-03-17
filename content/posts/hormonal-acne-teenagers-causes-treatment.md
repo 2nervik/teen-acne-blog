@@ -59,7 +59,7 @@ The term "hormonal acne" is sometimes used to describe adult women's acne that f
 
 This does not mean hormonal acne is "just part of growing up" and should be left untreated. Moderate-to-severe acne can cause permanent scarring and significant emotional distress. The earlier you address it with the right approach, the better the outcome.
 
-![Diagram showing how androgen hormones affect the sebaceous glands and lead to acne formation](/images/placeholder-hormonal-acne-1.png)
+![Diagram showing how androgen hormones affect the sebaceous glands and lead to acne formation](/images/hormonal-acne-puberty-timeline.png)
 
 ## The Puberty-Acne Connection
 
@@ -103,7 +103,7 @@ Almost all teenage acne has a hormonal component. But certain patterns can help 
 - **Timing with puberty.** Acne that started around the same time as other signs of puberty (growth spurts, body hair, voice changes, breast development) is almost certainly hormonal.
 - **Resistance to basic treatments.** Truly hormonal acne often does not clear fully with cleansing and over-the-counter spot treatments alone, because the underlying cause is systemic.
 
-![Illustration showing common areas where hormonal acne appears on a teenager's face, highlighting the T-zone, jawline, and chin](/images/placeholder-hormonal-acne-2.png)
+![Illustration showing common areas where hormonal acne appears on a teenager's face, highlighting the T-zone, jawline, and chin](/images/hormonal-acne-jawline.png)
 
 ### Hormonal Acne in Girls vs. Boys
 
@@ -152,7 +152,7 @@ When topical treatments alone are not enough — especially when acne is widespr
 
 **Isotretinoin (Accutane)** is reserved for severe, scarring, or treatment-resistant acne. It is the only medication that addresses all four causes of acne simultaneously: oil production, pore clogging, bacterial growth, and inflammation. About 85% of patients see significant or complete clearing after one course (typically 5 to 7 months). It carries real side effects and requires careful monitoring, but for teens with severe hormonal acne, it can be genuinely life-changing.
 
-![A visual overview of the acne treatment ladder, showing progression from basic topical care to prescription retinoids, oral antibiotics, and isotretinoin](/images/placeholder-hormonal-acne-3.png)
+![A visual overview of the acne treatment ladder, showing progression from basic topical care to prescription retinoids, oral antibiotics, and isotretinoin](/images/hormonal-acne-treatment-options.png)
 
 ### Hormonal Treatments (Girls Only)
 
@@ -214,7 +214,7 @@ It is worth clearing up some persistent myths:
 - **Chocolate, greasy food, and pizza** have not been shown to directly cause acne (though the high-glycemic and dairy components of some of these foods may contribute).
 - **Touching your face** does not cause hormonal acne, though it can introduce bacteria and worsen existing breakouts.
 
-![A teen washing their face with a gentle cleanser, representing the importance of a consistent but simple skincare routine](/images/placeholder-hormonal-acne-4.png)
+![A teen washing their face with a gentle cleanser, representing the importance of a consistent but simple skincare routine](/images/hormonal-acne-vs-other.png)
 
 ## The Emotional Side of Hormonal Acne
 

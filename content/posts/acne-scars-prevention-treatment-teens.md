@@ -76,7 +76,7 @@ True acne scars involve actual changes to the structure and texture of your skin
 
 True scars don't fully resolve on their own, though they do soften and improve over time — especially in young skin that's still producing collagen at a high rate.
 
-![Close-up comparison showing the difference between flat post-inflammatory hyperpigmentation and textured acne scars](/images/placeholder-acne-scars-1.png)
+![Close-up comparison showing the difference between flat post-inflammatory hyperpigmentation and textured acne scars](/images/acne-scars-pih-vs-true.png)
 
 ## Types of Acne Scars
 
@@ -132,7 +132,7 @@ UV exposure doesn't cause acne scars, but it makes existing dark marks and scars
 
 Use a broad-spectrum SPF 30 or higher sunscreen daily — even on cloudy days, even in winter. Look for lightweight, non-comedogenic formulas that won't clog pores or feel greasy.
 
-![Teen applying sunscreen as part of an acne scar prevention routine](/images/placeholder-acne-scars-2.png)
+![Teen applying sunscreen as part of an acne scar prevention routine](/images/acne-scars-prevention.png)
 
 ## At-Home Treatments That Actually Help
 
@@ -209,7 +209,7 @@ Most people need 3 to 6 sessions spaced 4 to 6 weeks apart. Results develop grad
 
 **Important:** At-home dermarollers are not the same as professional microneedling. Consumer devices use shorter needles and can actually cause damage or infection if used improperly. Stick to professional treatments.
 
-![Dermatologist consulting with a teen patient about acne scar treatment options](/images/placeholder-acne-scars-3.png)
+![Dermatologist consulting with a teen patient about acne scar treatment options](/images/acne-scars-treatment-comparison.png)
 
 ### Laser Treatments
 
@@ -263,7 +263,7 @@ Professional scar treatments can be expensive, and most are considered cosmetic,
 
 These costs add up quickly. For most teens, the smartest approach is to focus on prevention, use effective at-home products, and consider professional treatments later if needed — once acne is fully controlled and you've given your skin time to heal naturally.
 
-![Before and after timeline showing gradual improvement of teen acne scars over several months](/images/placeholder-acne-scars-4.png)
+![Before and after timeline showing gradual improvement of teen acne scars over several months](/images/acne-scars-types-diagram.png)
 
 ## The Emotional Side of Acne Scars
 

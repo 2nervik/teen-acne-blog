@@ -93,7 +93,7 @@ Many people think stress acne is only about extra oil. But cortisol also suppres
 
 This is why stress acne often feels *different* — it tends to be more inflamed, deeper, and more painful than your everyday whiteheads.
 
-![Diagram showing the stress-skin axis from brain to sebaceous glands](/images/placeholder-stress-acne-1.png)
+![Diagram showing the stress-skin axis from brain to sebaceous glands](/images/stress-acne-cortisol-pathway.png)
 
 ## The Stanford Exam Study
 
@@ -138,7 +138,7 @@ Parental conflict, divorce, financial strain, moving, or simply the friction tha
 
 Sports, clubs, volunteering, part-time jobs, tutoring — many teens have schedules that would exhaust an adult. The resulting time pressure and lack of downtime keep cortisol levels elevated chronically, which is harder on your skin than a single stressful event.
 
-![Teen studying at a desk surrounded by textbooks and a phone with notifications](/images/placeholder-stress-acne-2.png)
+![Teen studying at a desk surrounded by textbooks and a phone with notifications](/images/stress-acne-exam-study.png)
 
 ## The Stress-Acne Cycle
 
@@ -213,7 +213,7 @@ This activates your parasympathetic nervous system — the "rest and digest" bra
 
 Writing about stressful experiences has been shown to reduce cortisol levels and improve immune function. For teens, journaling can be as simple as spending 5 minutes before bed writing down three things that went well and one thing that stressed them out. The act of externalizing stress — getting it out of your head and onto paper — interrupts the rumination cycle that keeps cortisol elevated.
 
-![Teen practicing deep breathing exercises in a calm environment](/images/placeholder-stress-acne-3.png)
+![Teen practicing deep breathing exercises in a calm environment](/images/stress-acne-management.png)
 
 ## Skin Picking, Anxiety, and Acne
 
@@ -243,6 +243,8 @@ Occasional pimple-popping is common. But if you find yourself:
 
 **Tip for parents:** If you notice your teen spending long periods in the bathroom, or if their acne seems disproportionately scarred relative to its severity, skin picking may be a factor. Approach the conversation with compassion, not criticism. "I've noticed you seem frustrated with your skin — can I help?" is much more effective than "Stop picking at your face."
 
+![Close-up showing the effects of stress-related skin picking on acne](/images/stress-acne-skin-picking.png)
+
 ## When Stress Acne Might Signal Something Deeper
 
 Sometimes persistent stress breakouts are telling you something important — not just about your skin, but about your mental health.
@@ -261,7 +263,7 @@ The American Academy of Dermatology acknowledges the significant psychological b
 
 There is absolutely no shame in seeking help. Stress acne that resists all topical treatment is sometimes your body's way of telling you that the problem is deeper than your pores.
 
-![Teen talking with a counselor in a supportive setting](/images/placeholder-stress-acne-4.png)
+![Teen talking with a counselor in a supportive setting](/images/stress-acne-sleep.png)
 
 ## Daily Stress-Reduction Habits for Teens
 
