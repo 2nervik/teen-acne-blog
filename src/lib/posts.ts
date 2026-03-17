@@ -17,6 +17,9 @@ export interface Post {
   authorTitle?: string;
   reviewedBy?: string;
   reviewerCredentials?: string;
+  keyTakeaways?: string[];
+  sources?: { title: string; url?: string }[];
+  quickLinks?: string[];
   content: string;
 }
 
@@ -35,6 +38,9 @@ function parsePostData(
     authorTitle: data.authorTitle as string | undefined,
     reviewedBy: data.reviewedBy as string | undefined,
     reviewerCredentials: data.reviewerCredentials as string | undefined,
+    keyTakeaways: data.keyTakeaways as string[] | undefined,
+    sources: data.sources as { title: string; url?: string }[] | undefined,
+    quickLinks: data.quickLinks as string[] | undefined,
   };
 }
 
@@ -63,6 +69,21 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
     ...parsePostData(slug, data),
     content: processedContent.toString(),
   };
+}
+
+export function getRelatedPosts(
+  currentSlug: string,
+  category: string,
+  limit = 5
+): Omit<Post, "content">[] {
+  const all = getAllPosts();
+  const sameCategory = all.filter(
+    (p) => p.slug !== currentSlug && p.category === category
+  );
+  const others = all.filter(
+    (p) => p.slug !== currentSlug && p.category !== category
+  );
+  return [...sameCategory, ...others].slice(0, limit);
 }
 
 export function getAllSlugs(): string[] {

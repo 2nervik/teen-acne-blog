@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 40" fill="none">
+  <!-- "Teen Acne" in bold -->
+  <text x="0" y="28" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="28" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
+    Teen Acne
+  </text>
+  <!-- "Solutions" in lighter weight -->
+  <text x="172" y="28" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="28" font-weight="400" fill="#ffffff" letter-spacing="-0.5">
+    Solutions
+  </text>
+</svg>

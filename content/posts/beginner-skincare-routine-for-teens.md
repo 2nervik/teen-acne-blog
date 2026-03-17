@@ -7,13 +7,25 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
+quickLinks:
+  - "Starter routine"
+  - "What to avoid"
+  - "Bottom line"
+keyTakeaways:
+  - "**A 3-step routine** (cleanser, treatment, moisturizer + SPF) is all most teens need to get started."
+  - "**Benzoyl peroxide (2.5%)** or **adapalene (Differin)** are the two best over-the-counter acne treatments."
+  - "**Be patient** — most treatments take 6-8 weeks to show results. See a dermatologist if nothing improves after 3 months."
+sources:
+  - title: "American Academy of Dermatology — Acne Treatment"
+  - title: "Zaenglein AL, et al. Guidelines of care for acne vulgaris. J Am Acad Dermatol. 2016"
+  - title: "Leyden JJ. A review of the use of combination therapies for the treatment of acne vulgaris. 2003"
 ---
 
 If your teen is dealing with breakouts for the first time, it can be tempting to buy every product on the shelf. But more products often means more irritation — and a routine they'll abandon in a week.
 
 Here's the truth: **a simple 3-step routine is all most teens need to get started.**
 
-## The 3-Step Starter Routine
+## Starter Routine
 
 ### 1. Gentle Cleanser (Morning & Night)
 
@@ -45,6 +57,6 @@ Yes, even oily skin needs moisture. A lightweight, oil-free moisturizer with SPF
 - **Toothpaste on pimples** — it dries skin but doesn't treat acne
 - **Picking and popping** — the #1 cause of acne scars in teens
 
-## The Bottom Line
+## Bottom Line
 
 Start simple. Be patient. Most acne treatments take 6-8 weeks to show results. If things aren't improving after 2-3 months of consistent use, it's time to see a dermatologist.

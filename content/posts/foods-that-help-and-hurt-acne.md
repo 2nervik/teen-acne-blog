@@ -7,13 +7,25 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. James Chen"
 reviewerCredentials: "MD, Dermatology & Nutrition"
+quickLinks:
+  - "Foods that hurt"
+  - "Foods that help"
+  - "Realistic approach"
+keyTakeaways:
+  - "**Diet doesn't cause acne**, but high-glycemic foods and dairy may make breakouts worse in some teens."
+  - "**Omega-3s and zinc** from whole foods may help reduce inflammation and support skin healing."
+  - "**Don't restrict** — focus on adding nutrient-rich foods rather than eliminating entire food groups."
+sources:
+  - title: "Smith RN, et al. A low-glycemic-load diet improves symptoms in acne vulgaris patients. Am J Clin Nutr. 2007"
+  - title: "Adebamowo CA, et al. Milk consumption and acne in teenaged boys. J Am Acad Dermatol. 2008"
+  - title: "Bowe WP, et al. Diet and acne. J Am Acad Dermatol. 2010"
 ---
 
 Let's get this out of the way: **diet doesn't cause acne.** Hormones, genetics, and bacteria are the main drivers. But research shows that certain foods can make breakouts worse — or better.
 
 Here's what we know.
 
-## Foods That May Make Acne Worse
+## Foods That Hurt
 
 ### High-Glycemic Foods
 
@@ -35,7 +47,7 @@ If your teen is into fitness, those protein shakes might be contributing to brea
 
 **Alternative:** Plant-based protein powders (pea, hemp) don't seem to have the same effect.
 
-## Foods That May Help
+## Foods That Help
 
 ### Omega-3 Fatty Acids
 
@@ -49,7 +61,7 @@ Zinc plays a role in skin healing and reducing inflammation. Good sources: pumpk
 
 Antioxidants from colorful produce help fight inflammation. Berries, leafy greens, sweet potatoes, and bell peppers are all great picks.
 
-## A Realistic Approach
+## Realistic Approach
 
 Don't put your teen on a restrictive diet — that can backfire and create a bad relationship with food. Instead:
 

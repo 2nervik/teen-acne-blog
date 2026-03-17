@@ -7,13 +7,26 @@ author: "Teen Acne Solutions Team"
 authorTitle: "Health & Skincare Writers"
 reviewedBy: "Dr. Sarah Mitchell"
 reviewerCredentials: "MD, Board-Certified Dermatologist"
+quickLinks:
+  - "Warning signs"
+  - "What to expect"
+  - "Prescription treatments"
+  - "Bottom line"
+keyTakeaways:
+  - "**See a dermatologist** if OTC products haven't worked after 3 months of consistent use."
+  - "**Cystic acne** (deep, painful bumps) almost always needs prescription treatment and is most likely to scar."
+  - "**Don't ignore the emotional impact** — if acne is affecting your teen's mental health, that alone is reason enough to seek professional help."
+sources:
+  - title: "Zaenglein AL, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2016"
+  - title: "Tan JKL, Bhate K. A global perspective on the epidemiology of acne. Br J Dermatol. 2015"
+  - title: "Halvorsen JA, et al. Suicidal ideation, mental health problems, and social impairment are increased in adolescents with acne. J Invest Dermatol. 2011"
 ---
 
 Most mild teen acne can be managed at home with a good routine and the right over-the-counter products. But there's a point where drugstore solutions aren't enough — and waiting too long can lead to scarring.
 
 Here's how to know when it's time to call the dermatologist.
 
-## Signs It's Time for Professional Help
+## Warning Signs
 
 ### 1. OTC Products Aren't Working After 3 Months
 
@@ -42,7 +55,7 @@ This is the one parents often underestimate. If your teen is:
 
 If acne appears suddenly or severely — especially in a younger child (under 8) — it could signal a hormonal issue that needs medical attention.
 
-## What to Expect at the Appointment
+## What to Expect
 
 A first dermatology visit for acne usually involves:
 
@@ -51,7 +64,7 @@ A first dermatology visit for acne usually involves:
 3. **Treatment plan** — which might include prescription topicals, oral medication, or both
 4. **Follow-up** — typically 6-8 weeks later to check progress
 
-## Common Prescription Treatments
+## Prescription Treatments
 
 - **Topical retinoids** (tretinoin, tazarotene) — stronger versions of OTC adapalene
 - **Topical antibiotics** (clindamycin) — usually combined with benzoyl peroxide
@@ -59,6 +72,6 @@ A first dermatology visit for acne usually involves:
 - **Hormonal treatments** (spironolactone, birth control) — for hormone-driven acne in girls
 - **Isotretinoin (Accutane)** — for severe, treatment-resistant acne. Highly effective but requires monitoring
 
-## The Bottom Line
+## Bottom Line
 
 There's no medal for toughing it out. If OTC products aren't cutting it after a fair trial, or if the acne is severe, painful, or affecting your teen's wellbeing, book the appointment. Modern acne treatments are effective, and early intervention prevents scars — both physical and emotional.

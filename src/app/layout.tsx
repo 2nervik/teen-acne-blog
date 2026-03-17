@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
 
@@ -25,8 +26,15 @@ export default function RootLayout({
         {/* Header */}
         <header className="sticky top-0 z-50 bg-black">
           <nav className="max-w-[1100px] mx-auto px-5 md:px-[55px] h-[56px] md:h-[74px] flex items-center justify-between">
-            <Link href="/" className="text-white font-bold text-lg md:text-xl tracking-tight">
-              Teen Acne Solutions
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/logo.svg"
+                alt="Teen Acne Solutions"
+                width={220}
+                height={32}
+                className="h-7 md:h-8 w-auto"
+                priority
+              />
             </Link>
             <div className="flex items-center gap-5 md:gap-6">
               <Link
