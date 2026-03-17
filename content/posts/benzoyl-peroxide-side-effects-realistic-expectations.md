@@ -69,6 +69,8 @@ The most common complaint involves what dermatologists call "irritant contact de
 - **Burning or stinging sensation** - Particularly intense in the first 2-4 weeks
 - **Increased sun sensitivity** - Though less pronounced than with retinoids
 
+![Skin irritation and redness from benzoyl peroxide use](/images/benzoyl-peroxide-02-side-effects.png)
+
 **Clinical note:** These effects don't always resolve with continued use. In a 2016 study published in the *Journal of the American Academy of Dermatology*, 22% of patients discontinued benzoyl peroxide specifically due to persistent irritation after 8 weeks.
 
 ### Allergic Contact Dermatitis (1-5% of users)
@@ -89,6 +91,8 @@ This is the side effect patients find most frustrating but is rarely emphasized 
 - Permanently discolors colored pillowcases, sheets, and towels
 - Bleaches clothing necklines and collars
 - Affects hair (if product drips during application)
+
+![Benzoyl peroxide bleaching on a navy pillowcase](/images/benzoyl-peroxide-03-fabric-bleaching.png)
 
 **Practical impact:** Patients need white bedding and designated white towels, or must accept ruining their current linens. This represents an ongoing hidden cost rarely mentioned during prescription.
 

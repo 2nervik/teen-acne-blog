@@ -24,6 +24,8 @@ sources:
  - title: "Kornhauser A, et al. Applications of hydroxy acids: classification, mechanisms, and photoactivity. Clin Cosmet Investig Dermatol. 2010"
 ---
 
+![Over-the-counter salicylic acid products on a drugstore shelf](/images/salicylic-acid-01-products.png)
+
 Salicylic acid appears in countless over-the-counter acne products marketed to teenagers, often positioned as a "gentler alternative" to harsher treatments. As a dermatologist reviewing the clinical evidence, I find this characterization misleading. While salicylic acid has specific applications where it performs adequately, the gap between marketing claims and published efficacy data is substantial.
 
 ## Mechanism of Action
@@ -33,6 +35,8 @@ Salicylic acid is a beta-hydroxy acid (BHA) that works through two primary mecha
 **Keratolytic effect:** Dissolves the intercellular cement holding dead skin cells together, promoting exfoliation. This occurs at concentrations of 0.5-2% in most over-the-counter formulations.
 
 **Lipophilic penetration:** Unlike water-soluble alpha-hydroxy acids, salicylic acid can penetrate oil-filled pores due to its fat-soluble properties.
+
+![How salicylic acid works — exfoliates and unclogs pores](/images/salicylic-acid-03-mechanism.png)
 
 **What this means clinically:** Salicylic acid is theoretically effective at unclogging pores containing dead skin cells and oil. However, acne pathophysiology involves multiple factors beyond simple pore clogging—including inflammation, bacterial proliferation, and hormonal influences—none of which salicylic acid addresses effectively.
 

@@ -79,6 +79,8 @@ The most common side effects result from increased cell turnover:
 **Burning/stinging:** Especially with other skincare products  
 **Increased sensitivity:** To wind, cold, friction
 
+![Skin dryness and peeling caused by retinoid use](/images/salicylic-acid-02-dryness.png)
+
 **Duration:** These effects persist throughout treatment for most users. They don't fully resolve with continued use—you adapt and manage them, but they remain.
 
 **Mitigation strategies:**
