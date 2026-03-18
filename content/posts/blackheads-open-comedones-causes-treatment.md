@@ -66,7 +66,7 @@ Now, there are two types of comedones:
 
 That exposure to air is the critical difference, and it's what gives blackheads their distinctive color.
 
-![Close-up diagram showing the difference between an open comedone (blackhead) and a closed comedone (whitehead) inside the pore structure](/images/blackhead-vs-whitehead-diagram.png)
+![Close-up diagram showing the difference between an open comedone (blackhead) and a closed comedone (whitehead) inside the pore structure](/images/blackheads-oxidation-diagram.png)
 *A blackhead is an open comedone --- the pore is dilated and the plug is exposed to air. A whitehead is closed, with the plug trapped beneath the skin's surface.*
 
 ## Why Blackheads Look Black (And Why It Has Nothing to Do With Dirt)
@@ -117,7 +117,7 @@ The key distinction: the problem isn't that your face is *dirty* in the colloqui
 
 Anything that creates repeated friction or pressure against the skin --- like resting your chin on your hands, wearing tight headbands, or pressing a phone against your cheek --- can contribute to comedone formation in those areas. This is sometimes called **acne mechanica**.
 
-![Photo showing common blackhead locations on a teenager's face, with the T-zone highlighted](/images/blackhead-locations-tzone.png)
+![Photo showing common blackhead locations on a teenager's face, with the T-zone highlighted](/images/blackheads-tzone-diagram.png)
 *Blackheads are most common in the T-zone --- the forehead, nose, and chin --- where oil glands are densest.*
 
 ## The T-Zone Connection: Why Your Nose Gets Hit the Hardest
@@ -190,7 +190,7 @@ While benzoyl peroxide is best known for killing acne-causing bacteria (making i
 
 For persistent blackheads that don't respond well to at-home treatments, a dermatologist may recommend in-office chemical peels using glycolic acid, salicylic acid, or combination formulations. These are applied at higher concentrations than OTC products and can more aggressively clear pore congestion. They're typically done in a series of sessions spaced a few weeks apart.
 
-![Before-and-after comparison of blackheads on the nose area with consistent salicylic acid treatment over 8 weeks](/images/blackhead-treatment-before-after.png)
+![Before-and-after comparison of blackheads on the nose area with consistent salicylic acid treatment over 8 weeks](/images/blackheads-treatment-routine.png)
 *Consistent use of salicylic acid over 8-12 weeks can significantly reduce blackheads --- but patience and daily commitment are key.*
 
 ## Extraction: Safe vs. Dangerous
@@ -287,7 +287,7 @@ This is simple but surprisingly impactful. Every time you touch your face, you t
 
 Your pillowcase accumulates oil, dead skin cells, and product residue night after night. Changing or washing it at least once a week reduces the amount of pore-clogging material your face rests against for hours. Similarly, wiping down your phone screen regularly prevents transferring oil and bacteria to your cheek and jawline.
 
-![Flat-lay photo of a simple blackhead prevention routine: gentle cleanser, salicylic acid serum, lightweight moisturizer, and SPF](/images/blackhead-prevention-routine-flatlay.png)
+![Flat-lay photo of a simple blackhead prevention routine: gentle cleanser, salicylic acid serum, lightweight moisturizer, and SPF](/images/blackheads-pore-strip-truth.png)
 *An effective blackhead prevention routine doesn't need to be complicated --- a gentle cleanser, BHA treatment, moisturizer, and sunscreen cover the essentials.*
 
 ## When Blackheads Signal Something More

@@ -77,7 +77,7 @@ Let's be real — when you're starting to date, or even just thinking about it, 
 
 A 1999 study in the *British Journal of Dermatology* found that acne's impact on quality of life was comparable to conditions like asthma, epilepsy, and diabetes. That's not because teenagers are dramatic. It's because skin is social. It's the first thing people see. And when you're navigating first crushes and first relationships, that visibility feels unbearable.
 
-![Teenager looking in mirror with a thoughtful expression, representing self-reflection during acne struggles](/images/teen-mirror-reflection-acne.png)
+![Teenager looking in mirror with a thoughtful expression, representing self-reflection during acne struggles](/images/confidence-self-compassion.png)
 
 ## The Spotlight Effect
 
@@ -121,7 +121,7 @@ This is not about forcing yourself to do things that make you miserable. It's ab
 
 Your life is happening right now. Not when your skin clears.
 
-![Group of diverse teenagers laughing together at a social gathering, representing confidence in social situations](/images/teens-social-confidence-group.png)
+![Group of diverse teenagers laughing together at a social gathering, representing confidence in social situations](/images/confidence-spotlight-effect.png)
 
 ## Practical Confidence-Building Strategies
 
@@ -173,7 +173,7 @@ This one's important. Even if your current treatment takes weeks or months to sh
 
 If you haven't talked to a dermatologist yet, that's a concrete step you can take this week. If you're already on a treatment plan, stick with it consistently. The feeling of agency — "I'm handling this" — is a confidence booster on its own, independent of results.
 
-![Teenager with acne confidently participating in a class presentation, representing not letting acne hold you back](/images/teen-confident-presentation-acne.png)
+![Teenager with acne confidently participating in a class presentation, representing not letting acne hold you back](/images/confidence-activities.png)
 
 ## Handling Comments and Questions
 
@@ -225,8 +225,6 @@ If you're a parent reading this alongside your teen (or if a teen wants to share
 - **Don't make their acne your project.** The single most helpful thing you can do is treat your teen as a whole person, not a skin problem to be solved.
 
 Research in the *Dermatologic Clinics* journal emphasizes that family support — specifically support that respects adolescent autonomy — is one of the strongest protective factors against acne-related psychological distress.
-
-![Parent and teenager having a supportive conversation at home, representing open communication about acne struggles](/images/parent-teen-conversation-support.png)
 
 ## The Difference Between Toxic Positivity and Real Acceptance
 

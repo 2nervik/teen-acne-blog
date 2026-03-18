@@ -64,7 +64,7 @@ Studies consistently show that **50-70% of teenagers with acne report significan
 
 Perhaps the most telling study came from Mallon et al. (1999), published in the *British Journal of Dermatology*. Researchers compared quality-of-life scores in acne patients against patients with chronic, serious medical conditions — including asthma, epilepsy, diabetes, and chronic back pain. **Acne patients reported emotional and social functioning impairments on par with or worse than patients with these conditions.** Read that again. The psychological suffering caused by acne was comparable to that caused by diseases most people would consider far more "serious."
 
-![Infographic showing research statistics on acne's psychological impact on teenagers](/images/acne-mental-health-statistics.png)
+![Infographic showing research statistics on acne's psychological impact on teenagers](/images/self-esteem-mirror.png)
 
 ### Why Adolescence Makes Everything Harder
 
@@ -114,7 +114,7 @@ Research by Magin et al. (2006) documented that acne sufferers frequently engage
 
 The result is a teenager who not only feels bad about their skin, but who has an ever-present device confirming that they are, in fact, different from the impossibly smooth faces filling their feed.
 
-![Teenager looking at phone with social media images, illustrating the comparison trap](/images/acne-social-media-comparison.png)
+![Teenager looking at phone with social media images, illustrating the comparison trap](/images/self-esteem-parent-teen.png)
 
 ### Acne and Identity: "I Am My Skin"
 
@@ -175,7 +175,7 @@ This gives your teen agency. It says: *I'm not going to fix this for you or over
 **"You are so much more than your skin."**
 Say this — but only after you've validated their pain. If you lead with it, it sounds dismissive. After you've acknowledged how hard things are, this becomes one of the most powerful things a parent can say.
 
-![Parent and teenager having an empathetic conversation about acne](/images/parent-teen-acne-conversation.png)
+![Parent and teenager having an empathetic conversation about acne](/images/self-esteem-activities.png)
 
 ## Evidence-Based Coping Strategies
 
@@ -233,7 +233,6 @@ If your teen's acne is moderate to severe, seeing a dermatologist is not optiona
 
 That said, treatment takes time — often weeks to months. The coping strategies above aren't a replacement for treatment. They're what keeps your teenager afloat while treatment does its work.
 
-![Teenager engaging in a creative hobby, illustrating building identity beyond appearance](/images/teen-identity-beyond-acne.png)
 
 ## When to Seek Professional Help
 

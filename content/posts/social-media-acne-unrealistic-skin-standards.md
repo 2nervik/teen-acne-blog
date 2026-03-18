@@ -67,7 +67,7 @@ Let's talk about what filters and editing actually do to skin in photos, because
 
 The result? **The "normal" skin you see on social media is a manufactured product.** It doesn't exist in real life. Not on influencers, not on celebrities, not on that person from your school who seems to have flawless skin in every post. Everyone has texture. Everyone has pores. Most people get breakouts.
 
-![Comparison showing the same face with and without common social media filters applied](/images/filter-comparison-skin.png)
+![Comparison showing the same face with and without common social media filters applied](/images/social-media-filters.png)
 
 But knowing that intellectually and *feeling* it when you're deep in a scroll session at midnight? Those are two very different things.
 
@@ -112,7 +112,7 @@ This is where it gets really insidious. Social media doesn't just make you feel 
 
 This isn't weakness. It's a predictable psychological and physiological response to an environment your brain wasn't built for. Research published in *PLOS ONE* has shown that acne-related stigma directly predicts reduced quality of life, and social media is a stigma amplifier operating at unprecedented scale.
 
-![Illustration of the scroll-compare-stress-breakout cycle](/images/social-media-acne-cycle.png)
+![Illustration of the scroll-compare-stress-breakout cycle](/images/social-media-real-skin.png)
 
 ## Skincare Misinformation Online
 
@@ -158,7 +158,7 @@ Here's what the glass skin trend doesn't tell you:
 
 The "skin goals" culture creates a moving target that nobody can actually hit. You clear one breakout, and suddenly the standard is "poreless." You manage poreless in one photo, and now you need "dewy." The goalposts never stop moving because **the standard is fictional**.
 
-![Side-by-side of 'glass skin' social media imagery versus real, healthy skin with normal texture](/images/glass-skin-vs-real-skin.png)
+![Side-by-side of 'glass skin' social media imagery versus real, healthy skin with normal texture](/images/social-media-phone-break.png)
 
 ## Curating a Healthier Feed
 
@@ -225,8 +225,6 @@ Something genuinely good has come out of the relationship between acne and socia
 Over the past few years, a growing community of people — many of them teens and young adults — has started pushing back against filter culture by posting raw, unedited photos of their skin. Breakouts, scars, redness, texture — all of it, visible and unapologetic.
 
 This movement matters because **representation changes perception**. When you see hundreds of people living their lives, going to events, creating content, and being visibly confident with acne, it chips away at the lie that clear skin is a prerequisite for living fully.
-
-![Screenshot collage of acne positivity posts showing real, unfiltered skin](/images/acne-positivity-movement.png)
 
 Some important things this movement gets right:
 

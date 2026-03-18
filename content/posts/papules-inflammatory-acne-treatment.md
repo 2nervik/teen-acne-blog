@@ -50,7 +50,7 @@ Those bumps are called **papules**, and they represent one of the most important
 
 If you're a teen dealing with these frustrating red bumps, you're far from alone. Papular acne is one of the most common forms of inflammatory acne during adolescence, and understanding exactly what's happening inside your skin is the first step toward getting it under control. In this guide, we'll break down what papules are, why they form, how they differ from other types of acne, and — most importantly — the treatments that actually work.
 
-![Close-up illustration showing the difference between a normal pore, a clogged pore (comedone), and an inflamed papule](/images/papule-formation-diagram.png)
+![Close-up illustration showing the difference between a normal pore, a clogged pore (comedone), and an inflamed papule](/images/papules-formation-diagram.png)
 
 ## What Are Papules?
 
@@ -99,7 +99,7 @@ This inflammatory cascade is what produces the visible papule: a firm, red, swol
 
 Importantly, at the papule stage, the immune response hasn't yet produced a significant collection of pus. The white blood cells are still arriving and working. If enough pus accumulates and pushes toward the surface, the papule may eventually evolve into a **pustule** (that classic "pimple with a head"). But many papules resolve on their own without ever forming a visible head — the immune system clears the debris internally.
 
-![Diagram of the inflammatory cascade: from microcomedone to bacterial overgrowth to follicle rupture to immune response](/images/inflammatory-cascade-papule.png)
+![Diagram of the inflammatory cascade: from microcomedone to bacterial overgrowth to follicle rupture to immune response](/images/papules-vs-other-types.png)
 
 ## Papules vs. Other Acne Types: How to Tell Them Apart
 
@@ -172,7 +172,7 @@ If a papule is bothering you, here are safer alternatives:
 - **Use a hydrocolloid patch** — while these are designed for pus-filled lesions, they can protect papules from picking and create a moist healing environment.
 - **Leave it alone.** Most papules resolve within 5-7 days with proper skincare.
 
-![Infographic showing why popping papules is harmful: cross-section of skin demonstrating how squeezing pushes bacteria deeper](/images/dont-pop-papules-infographic.png)
+![Infographic showing why popping papules is harmful: cross-section of skin demonstrating how squeezing pushes bacteria deeper](/images/papules-dont-pop.png)
 
 ## Treatment Options for Papular Acne
 
@@ -283,7 +283,7 @@ While you can't always prevent papules entirely — especially during the hormon
 - **Manage stress when possible.** Stress hormones (particularly cortisol) can increase sebum production and inflammation, potentially worsening papular acne. This is especially relevant during exam periods and other high-stress times that are common in teen life.
 - **Be patient with treatment.** The biggest reason acne treatments "fail" is that people abandon them too early. Most effective acne treatments take **6-12 weeks** to show meaningful results. Switching products every week or two prevents anything from working.
 
-![Visual timeline showing how long different acne treatments take to work: benzoyl peroxide, salicylic acid, adapalene, and prescription options](/images/acne-treatment-timeline.png)
+![Visual timeline showing how long different acne treatments take to work: benzoyl peroxide, salicylic acid, adapalene, and prescription options](/images/papules-treatment-options.png)
 
 ## The Bottom Line
 

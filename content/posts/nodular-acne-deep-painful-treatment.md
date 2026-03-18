@@ -64,7 +64,7 @@ Here is what distinguishes a nodule from other types of acne lesions:
 
 Dermatologists classify acne severity into four grades. Grade I is mild comedonal acne (blackheads and whiteheads). Grade II is moderate inflammatory acne (papules and pustules). Grade III is severe inflammatory acne with nodules. Grade IV — the most severe — is nodulocystic acne, where both nodules and cysts are present. If you are dealing with hard, painful deep acne bumps, you are in Grade III or IV territory, and that means medical intervention is not optional — it is necessary.
 
-![Illustration comparing different types of acne lesions from surface-level comedones to deep nodules and cysts](/images/placeholder-nodular-acne-types.png)
+![Illustration comparing different types of acne lesions from surface-level comedones to deep nodules and cysts](/images/nodular-acne-depth-diagram.png)
 
 ### Nodular Acne vs. Cystic Acne: What Is the Difference?
 
@@ -111,7 +111,7 @@ Not every teenager who gets acne will develop nodules. Several factors increase 
 - **Individual inflammatory response** — some people's immune systems mount a more aggressive response to *C. acnes* bacteria. Research has shown that the intensity of the inflammatory reaction, not just the amount of bacteria, determines acne severity.
 - **Delayed or inadequate treatment** of moderate acne can allow it to progress to the nodular stage. What starts as papules and pustules can evolve into deeper inflammation over time.
 
-![Cross-section diagram showing how a nodule forms deep in the dermis compared to surface-level acne](/images/placeholder-nodular-acne-formation.png)
+![Cross-section diagram showing how a nodule forms deep in the dermis compared to surface-level acne](/images/nodular-acne-treatment-ladder.png)
 
 ## Why OTC Products Don't Work
 
@@ -206,7 +206,7 @@ Isotretinoin has a long list of potential side effects that your dermatologist w
 
 **When to push for isotretinoin:** If your teen has been on oral antibiotics for 3-6 months with inadequate improvement, if nodules keep recurring despite treatment, or if scarring is developing, it is reasonable to have a direct conversation with your dermatologist about whether isotretinoin is appropriate. Do not wait until the acne has caused extensive scarring — by then, the damage is permanent.
 
-![Before and after photos showing improvement of nodular acne after professional treatment](/images/placeholder-nodular-acne-treatment-results.png)
+![Before and after photos showing improvement of nodular acne after professional treatment](/images/nodular-acne-cortisone-injection.png)
 
 ## Cortisone Injections
 
@@ -288,7 +288,7 @@ While you are waiting for treatment to work, here are practical strategies:
 
 **Tip for parents:** If your teen has nodular acne, take it seriously. Do not dismiss it as a normal part of adolescence that they will "grow out of." Advocate for a dermatology appointment — and if the first treatment plan is not working after a reasonable time, advocate for escalation. Your teen's skin, confidence, and emotional wellbeing are worth it.
 
-![Teenager applying gentle skincare as part of a nodular acne management routine](/images/placeholder-nodular-acne-care.png)
+![Teenager applying gentle skincare as part of a nodular acne management routine](/images/nodular-acne-scarring-risk.png)
 
 ## Diet and Lifestyle Factors
 

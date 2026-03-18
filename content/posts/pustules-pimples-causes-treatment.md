@@ -63,9 +63,9 @@ For teenagers, the most common locations are:
 - **The upper back and shoulders** — areas dense with oil glands
 - **The chest** — another zone where sebaceous glands are concentrated
 
-Pustules can appear as isolated spots or in clusters. If you are dealing with acne during your teenage years, you are likely seeing a mix of pustules alongside other acne types like blackheads, whiteheads, and papules (red bumps without a visible head).
+Pustules can appear as isolated spots or in clusters, often alongside other acne types like blackheads, whiteheads, and papules.
 
-![Close-up diagram showing the anatomy of a pustule — the pus-filled center, surrounding inflammation, and the affected pore beneath the skin surface](/images/placeholder-pustule-anatomy.png)
+![Close-up diagram showing the anatomy of a pustule — the pus-filled center, surrounding inflammation, and the affected pore beneath the skin surface](/images/pustules-anatomy-diagram.png)
 
 ## What's Inside a Pustule
 
@@ -105,7 +105,7 @@ As the immune response continues, dead neutrophils, bacteria, and debris accumul
 
 From here, a pustule can go one of two ways. In most cases, the immune system wins — the body reabsorbs the pus, inflammation subsides, and the skin heals within 3 to 7 days (though temporary redness or dark marks may linger). But if the follicle wall ruptures deeper beneath the skin, infected material can spread into surrounding tissue, leading to a *nodule* or *cyst* — far more severe lesions with a much higher risk of permanent scarring.
 
-![Infographic showing the five stages of a pimple's life cycle — from invisible microcomedone to comedone, papule, pustule, and resolution](/images/placeholder-pimple-lifecycle.png)
+![Infographic showing the five stages of a pimple's life cycle — from invisible microcomedone to comedone, papule, pustule, and resolution](/images/pustules-lifecycle.png)
 
 ## Should You Pop a Pimple
 
@@ -169,11 +169,11 @@ SA and BP can be used together — many dermatologists recommend a salicylic aci
 
 ### Sulfur
 
-Sulfur has been used for acne treatment for decades and is making a comeback in spot treatments. It works by absorbing excess oil and has mild antibacterial and anti-inflammatory properties. Sulfur-based spot treatments (usually combined with other ingredients) can be effective for drying out individual pustules. The smell is the main downside — sulfur is not pleasant — but many modern formulations mask it well.
+Sulfur absorbs excess oil and has mild antibacterial properties, making sulfur-based spot treatments effective for drying out individual pustules. The smell is the main downside, though many modern formulations mask it well.
 
 ### Tea Tree Oil: The Natural Option
 
-Tea tree oil (melaleuca) has demonstrated antibacterial and anti-inflammatory properties in studies. A concentration of **5% tea tree oil** has been shown to be comparable in efficacy to 5% benzoyl peroxide for mild-to-moderate acne, though it works more slowly. It is a reasonable option for teenagers who prefer a natural approach, but it should be diluted properly (never applied directly at full strength, as it can cause irritation and contact dermatitis).
+A concentration of **5% tea tree oil** has been shown to be comparable in efficacy to 5% benzoyl peroxide for mild-to-moderate acne, though it works more slowly. It is a reasonable natural option, but it should always be diluted properly — never applied at full strength, as it can cause irritation.
 
 ### Ice for Swelling
 
@@ -185,7 +185,7 @@ This is a simple trick that dermatologists recommend for bringing down the redne
 
 Ice constricts blood vessels in the area, reducing redness and swelling temporarily. It will not treat the underlying infection, but if you have a visible pustule before an event, icing can make it noticeably less prominent within 15 to 20 minutes. Follow up with a spot treatment for actual healing.
 
-![Side-by-side comparison of common pustule treatment methods — benzoyl peroxide, salicylic acid, pimple patches, and ice](/images/placeholder-pustule-treatments.png)
+![Side-by-side comparison of common pustule treatment methods — benzoyl peroxide, salicylic acid, pimple patches, and ice](/images/pustules-pimple-patches.png)
 
 ## Pimple Patches — Do They Work
 
@@ -203,9 +203,7 @@ When applied to a pustule:
 
 ### What the Evidence Says
 
-Hydrocolloid dressings have a well-established evidence base for wound healing in general. Their use specifically for acne pustules has less formal clinical trial data, but the mechanism of action is well understood, and dermatologists widely consider them a safe and reasonable option for individual surface-level pustules.
-
-Some pimple patches also include active ingredients like salicylic acid or niacinamide, which adds a treatment component. However, basic hydrocolloid patches without any added actives still work well for drawing out pus and protecting the area.
+Hydrocolloid dressings have a well-established evidence base for wound healing. Their specific use for acne has less formal trial data, but the mechanism is well understood and dermatologists widely consider them a safe option. Some patches include active ingredients like salicylic acid or niacinamide, but basic hydrocolloid patches without added actives still work well.
 
 ### When Pimple Patches Work Best
 
@@ -220,7 +218,7 @@ They are **less effective** on:
 
 ### How to Use Them
 
-For the best results, apply the patch to clean, dry skin — no moisturizer, serum, or spot treatment underneath, as these create a barrier that prevents the hydrocolloid from making contact with the pustule. Leave the patch on for at least 6 hours (overnight is ideal). Replace it with a fresh one if it becomes fully saturated.
+Apply the patch to clean, dry skin — no moisturizer or spot treatment underneath, as these prevent the hydrocolloid from contacting the pustule. Leave it on for at least 6 hours (overnight is ideal) and replace with a fresh one if fully saturated.
 
 ## When a Pustule Is Actually Something Else
 
@@ -239,25 +237,25 @@ Treating individual pustules is important, but the real goal is preventing them 
 
 ### Keep Pores Clear
 
-The foundation of pustule prevention is preventing the initial clog. A consistent skincare routine that includes:
+The foundation of pustule prevention is a consistent skincare routine:
 
-- **A gentle, non-comedogenic cleanser** used twice daily. Avoid harsh scrubs, which can irritate the skin and actually worsen acne by disrupting the skin barrier.
-- **A topical retinoid** (adapalene 0.1% is available over the counter). Retinoids are the single most effective class of medication for preventing clogged pores. They work by normalizing the way skin cells shed inside the follicle, preventing the sticky clumping that leads to microcomedones. If you only add one product to prevent acne, this is it.
-- **Non-comedogenic moisturizer and sunscreen.** Yes, even acne-prone skin needs moisture. Dehydrated skin produces more oil to compensate, which can make acne worse.
+- **A gentle, non-comedogenic cleanser** used twice daily. Avoid harsh scrubs, which disrupt the skin barrier and can worsen acne.
+- **A topical retinoid** (adapalene 0.1% is available over the counter). Retinoids normalize the way skin cells shed inside the follicle, preventing the clumping that leads to microcomedones. If you only add one product to prevent acne, this is it.
+- **Non-comedogenic moisturizer and sunscreen.** Even acne-prone skin needs moisture — dehydrated skin produces more oil to compensate.
 
 ### Reduce Bacterial Load
 
-Using a benzoyl peroxide wash (typically 4-5%) as part of your routine — even on days when you do not have active breakouts — helps keep the population of C. acnes bacteria in check. This is particularly useful for the back and chest, where leave-on products are impractical.
+Using a benzoyl peroxide wash (4-5%) as part of your routine — even on clear days — helps keep C. acnes bacteria in check. This is particularly useful for the back and chest, where leave-on products are impractical.
 
 ### Hands Off Your Face
 
-This is simple but difficult advice for teenagers: **stop touching your face.** Your hands transfer bacteria, oil, and dirt to your skin every time you rest your chin in your hand, rub your forehead, or pick at a spot. Reducing face-touching is one of the easiest and most effective behavioral changes for acne prevention.
+Simple but difficult: **stop touching your face.** Your hands transfer bacteria, oil, and dirt every time you rest your chin in your hand or pick at a spot. It is one of the easiest behavioral changes for acne prevention.
 
 ### Manage Contributing Factors
 
 While diet and lifestyle do not *cause* acne the way hormones and genetics do, certain factors can make breakouts worse. **High-glycemic foods** (sugary snacks, white bread, processed carbohydrates) spike insulin levels and can increase oil production. **Stress** triggers cortisol release, worsening inflammation. And simple environmental factors matter too — change pillowcases at least weekly and clean your phone screen regularly, since both can transfer bacteria to your face.
 
-![Illustration showing daily habits that help prevent pustules — gentle cleansing, retinoid use, clean pillowcases, and avoiding touching the face](/images/placeholder-pustule-prevention.png)
+![Illustration showing daily habits that help prevent pustules — gentle cleansing, retinoid use, clean pillowcases, and avoiding touching the face](/images/pustules-safe-extraction.png)
 
 ## When to See a Doctor
 
@@ -277,11 +275,11 @@ If your pustules are being joined by large, deep, painful lumps beneath the skin
 
 ### You Are Scarring
 
-If pustules are leaving behind indented or raised scars (not just flat red or brown marks, which are temporary), treatment is urgent. The goal shifts from just clearing active acne to preventing further permanent damage to the skin. A dermatologist may recommend more aggressive treatment to bring active breakouts under control quickly.
+If pustules are leaving behind indented or raised scars (not just flat red or brown marks, which are temporary), treatment is urgent. A dermatologist can recommend more aggressive treatment to prevent further permanent damage.
 
 ### Your Acne Is Affecting Your Mental Health
 
-This one is just as valid as any medical reason. If acne is causing significant anxiety, social withdrawal, depression, or avoidance of normal activities, that impact on quality of life is a legitimate reason to seek professional help. Dermatologists see this constantly and take it seriously — you do not need to have "severe" acne to deserve treatment.
+If acne is causing significant anxiety, social withdrawal, or depression, that impact on quality of life is a legitimate reason to seek professional help. You do not need "severe" acne to deserve treatment.
 
 ### What a Dermatologist Might Prescribe
 
@@ -289,8 +287,8 @@ Prescription options for recurring pustules include **topical retinoids** (treti
 
 ## The Bottom Line
 
-Pustules are the most common and recognizable form of acne, and if you are a teenager dealing with them, you are in the overwhelming majority. Nearly 85% of people between ages 12 and 24 experience acne, and pustules are the bread and butter of teenage breakouts.
+Pustules are the most common and recognizable form of acne. If you are a teenager dealing with them, you are in the overwhelming majority — nearly 85% of people between ages 12 and 24 experience acne.
 
-What matters is how you respond to them. Resist the urge to pop — even though it is tempting, the risks genuinely outweigh the short-term satisfaction. Instead, use evidence-based treatments: benzoyl peroxide for active pustules, retinoids for prevention, and hydrocolloid patches to protect and heal individual spots. Build a consistent, gentle skincare routine. And if over-the-counter options are not cutting it, do not hesitate to see a dermatologist — there is no reason to struggle through moderate or severe acne when effective prescription treatments exist.
+Resist the urge to pop. Use evidence-based treatments: benzoyl peroxide for active pustules, retinoids for prevention, and hydrocolloid patches to protect and heal individual spots. Build a consistent, gentle skincare routine. And if over-the-counter options are not cutting it, see a dermatologist — there is no reason to struggle when effective prescription treatments exist.
 
-Your skin is doing something completely normal. The pustule on your face is just your immune system doing its job, a little too enthusiastically. With the right approach, you can work with your skin instead of against it — and that makes all the difference.
+The pustule on your face is just your immune system doing its job, a little too enthusiastically. With the right approach, you can work with your skin instead of against it.

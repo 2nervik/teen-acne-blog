@@ -50,7 +50,7 @@ If this sounds familiar, you're dealing with **whiteheads**, also known as **clo
 
 The good news? Once you understand what's actually happening inside your skin, getting rid of whiteheads becomes much more straightforward. In this guide, we'll break down exactly what closed comedones are, why they form, and the step-by-step treatment approach that dermatologists recommend.
 
-![Close-up photograph showing whiteheads (closed comedones) on the forehead, appearing as small flesh-colored bumps](/images/whiteheads-forehead-closeup.png)
+![Close-up photograph showing whiteheads (closed comedones) on the forehead, appearing as small flesh-colored bumps](/images/whiteheads-vs-milia.png)
 
 ## What Are Whiteheads
 
@@ -73,7 +73,7 @@ Here's where things go wrong with closed comedones:
 
 This is the critical distinction. A closed comedone is essentially a **sealed pocket** of oil, dead skin cells, and sometimes bacteria sitting just below the skin's surface. The contents have nowhere to go — they can't drain on their own, and the overlying skin keeps them locked in place.
 
-![Cross-section diagram comparing a normal pore, a closed comedone (whitehead), and an open comedone (blackhead)](/images/pore-cross-section-comedone-comparison.png)
+![Cross-section diagram comparing a normal pore, a closed comedone (whitehead), and an open comedone (blackhead)](/images/whiteheads-cross-section.png)
 
 ### Whiteheads vs. Other Types of Acne
 
@@ -158,7 +158,7 @@ Whiteheads on the forehead are extremely common in teens, but closed comedones c
 - **Nose:** Though blackheads are more common here (because the pores on the nose tend to be larger and more open), whiteheads can form on and around the nose.
 - **Around the mouth:** Sometimes related to lip balm, toothpaste, or other products that come into contact with this area.
 
-![Facial diagram highlighting the most common locations where whiteheads appear, including forehead, chin, cheeks, and nose](/images/facial-map-whitehead-locations.png)
+![Facial diagram highlighting the most common locations where whiteheads appear, including forehead, chin, cheeks, and nose](/images/whiteheads-common-locations.png)
 
 ### Why You Shouldn't Squeeze Whiteheads
 
@@ -241,7 +241,7 @@ Professional extraction provides **immediate results** but is not a long-term so
 
 In-office **chemical peels** using glycolic acid, salicylic acid, or other agents can help treat widespread closed comedones by removing the top layer of skin and unclogging pores en masse. These are typically done in a series of sessions spaced 2-4 weeks apart and work well as a complement to daily topical treatment.
 
-![Before and after comparison showing improvement in closed comedones after 8 weeks of consistent retinoid treatment](/images/whiteheads-before-after-treatment.png)
+![Before and after comparison showing improvement in closed comedones after 8 weeks of consistent retinoid treatment](/images/whiteheads-treatment-products.png)
 
 ## Prevention Strategies
 

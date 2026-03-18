@@ -69,7 +69,7 @@ Think about it this way: if covering a breakout helps you feel confident enough 
 
 **The bottom line:** Non-comedogenic makeup, applied correctly and removed thoroughly, does not cause acne. But the wrong products absolutely can — which is why ingredient awareness matters.
 
-![Infographic showing the difference between comedogenic and non-comedogenic makeup ingredients on skin pores](/images/comedogenic-vs-noncomedogenic-comparison.png)
+![Infographic showing the difference between comedogenic and non-comedogenic makeup ingredients on skin pores](/images/makeup-ingredients-avoid.png)
 
 ## Ingredients to Avoid
 
@@ -152,7 +152,7 @@ Look for products that feature some of these:
 
 The order you apply products matters just as much as the products themselves. Here's the complete routine for covering breakouts without making them worse.
 
-![Step-by-step layering diagram showing the correct order from skincare to setting spray](/images/makeup-application-order-acne-skin.png)
+![Step-by-step layering diagram showing the correct order from skincare to setting spray](/images/makeup-application-steps.png)
 
 ### Step 1: Skincare Treatment First — Always
 
@@ -242,7 +242,7 @@ These flat, discolored marks left behind after a pimple heals are actually easie
 
 Apply the corrector, blend the edges, then layer foundation and concealer as needed. Because PIH is flat, coverage tends to look very natural.
 
-![Color correction chart showing which corrector shades cancel different types of discoloration across various skin tones](/images/color-correction-guide-skin-tones.png)
+![Color correction chart showing which corrector shades cancel different types of discoloration across various skin tones](/images/makeup-color-correction.png)
 
 ## Removing Makeup Properly
 
@@ -273,7 +273,7 @@ Follow up with your regular gentle, acne-appropriate face wash. This cleanses yo
 
 You could use the most perfectly formulated non-comedogenic makeup in the world, and it won't matter if you're applying it with a brush that's harboring three weeks' worth of bacteria, dead skin cells, and old product buildup. Tool hygiene is one of the most overlooked causes of persistent breakouts.
 
-![Flat-lay photo of clean makeup brushes and sponges with a cleaning schedule checklist](/images/makeup-tool-cleaning-schedule.png)
+![Flat-lay photo of clean makeup brushes and sponges with a cleaning schedule checklist](/images/makeup-brush-cleaning.png)
 
 ### Brush Cleaning Schedule
 

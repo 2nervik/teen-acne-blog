@@ -51,7 +51,7 @@ If your teen has visible acne, there may be more going on than a rough afternoon
 
 This guide is for parents who suspect their teen is being teased, excluded, or outright bullied because of their skin. It is also for teens who are living through it and need real, practical ways to respond. We are going to cover how common acne bullying actually is, what it looks like in practice, the warning signs you should not ignore, and exactly what to do about it — from the first conversation at home to working with schools and knowing when professional help is needed.
 
-![Parent comforting a teenager sitting on a bed in a supportive conversation](/images/parent-teen-supportive-conversation.png)
+![Parent comforting a teenager sitting on a bed in a supportive conversation](/images/bullying-parent-support.png)
 
 ## How Common Is Acne Bullying
 
@@ -118,7 +118,7 @@ Not all hurtful comments come from enemies. Sometimes well-meaning peers, relati
 
 These comments reduce a teenager to their skin condition and imply that their acne is a problem they should have solved by now. Even when the intention is kind, the impact is shame.
 
-![Teenager looking at hurtful comments on a phone screen while sitting alone](/images/teen-cyberbullying-phone.png)
+![Teenager looking at hurtful comments on a phone screen while sitting alone](/images/bullying-phone-cyber.png)
 
 ## The Psychological Toll of Acne Bullying
 
@@ -188,7 +188,7 @@ This is critical. Your teen may believe that if their acne goes away, the bullyi
 
 Try saying: "We can absolutely work on your skin if that's something you want. But I want you to know — no one has the right to treat you badly because of how you look. That is about them, not you."
 
-![Infographic showing warning signs of acne bullying including withdrawal, school avoidance, and mood changes](/images/acne-bullying-warning-signs-infographic.png)
+![Infographic showing warning signs of acne bullying including withdrawal, school avoidance, and mood changes](/images/bullying-resilience.png)
 
 ## Responding to Bullies — Scripts for Teens
 
@@ -318,8 +318,6 @@ Simple techniques like deep breathing, journaling, or even naming their emotions
 ### Model Healthy Self-Talk
 
 Pay attention to how you talk about your own appearance and other people's appearance at home. If your teen hears you criticize your own skin, weight, or looks, they absorb the message that appearance determines worth. Model the language you want them to use with themselves.
-
-![Teenager participating confidently in a group activity with supportive peers](/images/teen-resilience-group-activity.png)
 
 ## When to Involve a Counselor or Therapist
 
