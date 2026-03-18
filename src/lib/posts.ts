@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
+import remarkGfm from "remark-gfm";
 import html from "remark-html";
 
 const postsDirectory = path.join(process.cwd(), "content/posts");
@@ -66,7 +67,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
   if (!fs.existsSync(fullPath)) return null;
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
-  const processedContent = await remark().use(html).process(content);
+  const processedContent = await remark().use(remarkGfm).use(html, { sanitize: false }).process(content);
   const htmlContent = processedContent.toString().replace(
     /<(h[23])>(.*?)<\/\1>/g,
     (_, tag, text) => {

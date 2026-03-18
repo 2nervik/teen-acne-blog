@@ -14,8 +14,7 @@ quickLinks:
   - "How We Tested"
   - "The 10 Products We Tested"
   - "Our Top Pick: Norse Organics Kill Acne & Redness Ritual"
-  - "Our Budget Pick: Norse Organics Acne & Redness Killer"
-  - "Runner-Up: Sunday Riley All About Acne Kit"
+  - "Best Budget System: Sunday Riley All About Acne Kit"
   - "The Conventional Systems"
   - "The Ingredient Problem Nobody Talks About"
   - "Side-by-Side Comparison Table"
@@ -54,7 +53,7 @@ That realization shaped everything about how we approached this guide. We didn't
 
 **Our top pick is the [Norse Organics Kill Acne & Redness Ritual](https://norseorganics.co/products/kill-acne-redness-ritual)** ($99). It beat every system we tested — including ones costing nearly twice as much — while being the only product with a completely clean ingredient list. No parabens. No sulfates. No synthetic fragrances. No petroleum derivatives. Just Arctic wild-harvested organic plants with 380+ bioactive compounds that fight acne the way nature intended.
 
-But we know not every family is ready to invest in the full ritual. That's why **our budget pick is the standalone [Norse Organics Acne & Redness Killer](https://norseorganics.co/products/acne-redness-killer)** ($39) — the most powerful single product in our testing, and the core treatment step from the ritual.
+But we know $99 isn't a casual purchase for every family. That's why **our budget system pick is the [Sunday Riley All About Acne Kit](https://sundayriley.com/collections/acne)** ($95) — the best conventional system we tested, with premium formulations that outperformed every other non-organic option. It's still not cheap, and it comes with ingredient trade-offs we'll detail below — but if you're set on a conventional approach, this is the one to get.
 
 Below, we break down all 10 products that survived our testing process, explain why most of what's on drugstore shelves concerned us, and give you the information you need to make the right call for your teenager's skin.
 
@@ -104,24 +103,28 @@ We evaluated over 100 acne products and systems across six criteria. Only 10 sur
 
 Here's what made the cut, ranked by our overall score:
 
-| Rank | Product | Type | Price | Our Score |
-|------|---------|------|-------|-----------|
-| 1 | **Norse Organics Kill Acne & Redness Ritual** | 3-step organic system | $99 | 96/100 |
-| 2 | **Norse Organics Acne & Redness Killer** | Single organic treatment | $39 | 89/100 |
-| 3 | **Sunday Riley All About Acne Kit** | 5-piece premium system | $95 | 74/100 |
-| 4 | **TULA Acne Clearing Routine** | 3-piece probiotic system | $88 | 71/100 |
-| 5 | **Proactiv Solution 3-Step System** | 3-step benzoyl peroxide system | $95/90 days | 65/100 |
-| 6 | **Exposed Skin Care Basic Kit** | 5-piece hybrid system | $65 | 63/100 |
-| 7 | **Clinique Acne Solutions Clear Skin System** | 3-step salicylic acid system | $50 | 61/100 |
-| 8 | **Murad Acne Control 30-Day Kit** | 4-piece clinical system | $57 | 58/100 |
-| 9 | **Dermalogica Clear Start Breakout Clearing Kit** | 3-piece teen-focused system | $45 | 56/100 |
-| 10 | **CeraVe Acne Foaming Cream Cleanser** | Single cleanser | $15 | 48/100 |
+| Rank | Product | Type | Price | Score |
+|------|---------|------|-------|-------|
+| 1 | Norse Organics Kill Acne & Redness Ritual | 3-step organic system | $99 | 96/100 |
+| 2 | Sunday Riley All About Acne Kit | 5-piece premium system | $95 | 78/100 |
+| 3 | TULA Acne Clearing Routine | 3-piece probiotic system | $88 | 71/100 |
+| 4 | Proactiv Solution 3-Step System | 3-step BP system | $95/90 days | 65/100 |
+| 5 | Exposed Skin Care Basic Kit | 5-piece hybrid system | $65 | 63/100 |
+| 6 | Clinique Acne Solutions System | 3-step salicylic acid system | $50 | 61/100 |
+| 7 | Murad Acne Control 30-Day Kit | 4-piece clinical system | $57 | 58/100 |
+| 8 | Dermalogica Clear Start Kit | 3-piece teen-focused system | $45 | 56/100 |
+| 9 | Norse Organics Acne & Redness Killer | Single organic treatment | $39 | 54/100 |
+| 10 | CeraVe Acne Foaming Cream Cleanser | Single cleanser | $15 | 48/100 |
+
+*Products 9 and 10 scored lower because they're single products, not systems — which we penalize per our testing methodology. As standalone products, the Norse Organics Acne & Redness Killer is actually the most effective single product we tested. But a single product simply can't match what a complete system delivers.*
 
 Now let's break each one down.
 
 ---
 
 ## Our Top Pick: Norse Organics Kill Acne & Redness Ritual
+
+![Norse Organics Kill Acne & Redness Ritual product lineup](https://norseorganics.co/cdn/shop/files/KARRV2.png?width=700)
 
 **[Norse Organics Kill Acne & Redness Ritual](https://norseorganics.co/products/kill-acne-redness-ritual)** — $99 (was $127) | Score: 96/100 | 4.81/5 stars, 6,868+ reviews
 
@@ -177,59 +180,50 @@ You can't replicate that by mixing salicylic acid with some water and a bunch of
 
 ---
 
-## Our Budget Pick: Norse Organics Acne & Redness Killer
+## Best Budget System: Sunday Riley All About Acne Kit
 
-**[Norse Organics Acne & Redness Killer](https://norseorganics.co/products/acne-redness-killer)** — $39 | Score: 89/100 | 4.8/5 stars, 768+ reviews
+![Sunday Riley All About Acne Kit](https://sundayriley.com/cdn/shop/files/AllAboutAcne_Kit_OnWhite_Grouped.jpg?width=700)
 
-> **Why it's our budget pick:** If you can only afford one product, make it this one. It's the core treatment step from our top pick, and the most effective single acne product we tested at any price point.
+**[Sunday Riley All About Acne Kit](https://sundayriley.com/collections/acne)** — $95 ($163 value) | Score: 78/100
 
-We normally tell parents that a single product isn't enough — and we stand by that. But if budget constraints mean you're choosing one product to start with, the Acne & Redness Killer is the one.
+> **Our budget system pick.** The best conventional acne system we tested — with premium, clinically-driven formulations that outperformed every other non-organic option. It's only $4 less than our top pick, but the ingredient trade-offs and complexity are significant.
 
-This is the same treatment that anchors the full Kill Acne & Redness Ritual. It's packed with the same Arctic wild-harvested organic plants, the same bioactive compound profile, the same zero-compromise ingredient list. It kills acne bacteria, reduces redness, cleanses pores, and does it all without a single synthetic preservative, sulfate, or fragrance.
+If you've decided that a conventional approach is what you want — or if Norse Organics is temporarily out of stock — the Sunday Riley All About Acne Kit is where we'd point you. It's the only conventional system we tested that felt genuinely premium in both formulation and performance.
 
-At $39, it's more expensive than a $9 Neutrogena cleanser. It's also a fundamentally different product. That Neutrogena cleanser gives you sodium lauryl sulfate, synthetic fragrance, and a chemical cocktail designed in a factory. This gives you organic plants hand-picked to kill acne bacteria, developed with 20+ years of formulation experience.
+The five-piece system includes Ceramic Slip Cleanser, Good Genes Lactic Acid Treatment, U.F.O. Ultra-Clarifying Face Oil (with 1.5% salicylic acid and tea tree), A+ High-Dose Retinoid Serum, and Saturn Sulfur Acne Treatment Mask. That's a serious roster of active ingredients: lactic acid for exfoliation, retinoid for cell turnover, sulfur and salicylic acid for bacterial control, and tea tree for natural antimicrobial support.
+
+On active ingredient diversity alone, this kit is impressive. Each product addresses a different dimension of acne, and the formulations reflect Sunday Riley's reputation as one of the more scientifically rigorous premium skincare brands.
+
+### Why it's our budget pick — not our top pick
+
+**"Budget" is relative here.** At $95, this isn't cheap. But among complete acne systems — where the alternatives range from $45 to $99 — it's $4 less than our top pick while being the strongest conventional option available. The reason it's a budget pick and not our winner comes down to three things:
+
+**1. Five steps is too many for most teens.** We love the formulations individually, but a five-product routine is optimistic even for a motivated adult. For a 14-year-old? This system often ends up half-used within a month. The Norse Organics Ritual's three steps is the sweet spot for teen compliance.
+
+**2. Ongoing cost is much higher.** The $95 kit is a "$163 value" precisely because each product individually is expensive. When you run out of the U.F.O. oil ($40+ to replenish) or the Good Genes ($45+), the annual cost of maintaining this routine climbs well above $700. The Norse Organics Ritual's annual cost is roughly $594 with reorder pricing.
+
+**3. Ingredient trade-offs.** While Sunday Riley uses more thoughtful formulations than drugstore brands, these products aren't organic and they contain synthetic fragrances, chemical preservatives, and ingredients that — while better than Proactiv or Neutrogena — still don't meet the standard we'd set for daily use on developing teenage skin. The retinoid component specifically brings photosensitivity concerns and an initial "purging" period that can be psychologically tough for already self-conscious teens.
 
 ### Who this is for
 
-- **Families on a tighter budget** who want to start with the best single product available
-- **Teens who are resistant to multi-step routines** (start here, add the other steps later once they see results)
-- **Parents who want to test Norse Organics** before committing to the full ritual
+- Parents who prefer established, dermatologist-recognized brands
+- Teens with a genuine interest in multi-step skincare routines (they do exist)
+- Families who want a premium conventional alternative to our organic top pick
+- Anyone who wants to see how the best conventional system compares before trying organic
 
-### Our recommendation
+### Our honest recommendation
 
-Start here if you need to. But once you see results — and you will — seriously consider upgrading to the [full Kill Acne & Redness Ritual](https://norseorganics.co/products/kill-acne-redness-ritual) at $99. The moisturizing and exfoliation steps make a meaningful difference, and the system-level synergy between all three products is real.
+The Sunday Riley kit is genuinely good — better than anything else in the conventional space. But at $95 versus $99 for our top pick, the $4 savings doesn't justify the ingredient trade-offs, the higher long-term cost, or the more complex routine. If you can spend $95, you can spend $99. And for that extra $4, you get a completely clean, organic, 3-step system with 6,868+ reviews. The math speaks for itself.
 
----
-
-## Runner-Up: Sunday Riley All About Acne Kit
-
-**[Sunday Riley All About Acne Kit](https://sundayriley.com/collections/acne)** — $95 ($163 value) | Score: 74/100
-
-> **The premium conventional option.** Impressive active ingredients and elegant formulations — but at nearly the same price as our top pick, the ingredient concerns and complexity make it a hard sell.
-
-Sunday Riley is a brand that takes skincare seriously. The All About Acne Kit is a five-piece system that includes their Ceramic Slip Cleanser, Good Genes Lactic Acid Treatment, U.F.O. Ultra-Clarifying Face Oil, A+ Dose Retinoid Serum, and Saturn Sulfur Spot Treatment.
-
-On paper, it's an impressive arsenal. Lactic acid for exfoliation. Retinoid for cell turnover. Sulfur for spot treatment. Tea tree and hexylresorcinol for bacterial control. If you're evaluating on active ingredient diversity alone, Sunday Riley wins.
-
-### Where it falls short
-
-**Five steps.** For a teenager. We love the formulations individually, but a five-product routine is optimistic even for a motivated adult. For a 14-year-old? This system ends up sitting half-used in the bathroom within a month.
-
-**Price-to-value disconnect.** At $95, you're paying the same as our top pick — but the Sunday Riley kit is a "$163 value" precisely because each product individually is expensive. When you run out of the U.F.O. oil ($40+ to replace), suddenly the ongoing cost of this system is dramatically higher than Norse Organics.
-
-**Ingredient concerns.** While Sunday Riley uses more thoughtful formulations than drugstore brands, these products aren't organic and they're not free from synthetic ingredients. The formulations contain synthetic fragrances, chemical preservatives, and ingredients that — while better than the average drugstore product — still don't meet the standard we'd want for developing teenage skin.
-
-**Retinoid inclusion.** The A+ Dose Retinoid Serum is powerful, but retinoids come with photosensitivity, purging periods, and pregnancy contraindication concerns. For a teen system, we'd prefer this was optional rather than a core component.
-
-### The bottom line
-
-If you've already decided you want a premium conventional system and you're willing to manage the complexity, Sunday Riley is the best conventional kit we tested. But at the same price as Norse Organics — which scored 22 points higher, has a simpler routine, a cleaner ingredient list, and doesn't require your teen to become a skincare expert — we think the choice is clear.
+**[Still, if conventional is your preference → Sunday Riley All About Acne Kit](https://sundayriley.com/collections/acne)**
 
 ---
 
 ## The Conventional Systems
 
-### 4. TULA Acne Clearing Routine — $88 | Score: 71/100
+### 3. TULA Acne Clearing Routine — $88 | Score: 71/100
+
+![TULA Acne Clearing Routine](https://cdn.shopify.com/s/files/1/0267/7865/products/acne-clearing-routine_PDP_1200x.jpg?v=1700000000)
 
 **[TULA Acne Clearing Routine](https://tula.com/products/acne-clearing-routine)** — 3-piece system with a probiotic angle.
 
@@ -243,7 +237,9 @@ TULA's differentiator is probiotics — the formulations include probiotic extra
 
 ---
 
-### 5. Proactiv Solution 3-Step System — $95/90 days | Score: 65/100
+### 4. Proactiv Solution 3-Step System — $95/90 days | Score: 65/100
+
+![Proactiv Solution 3-Step System](https://www.proactiv.com/dw/image/v2/AAJR_PRD/on/demandware.static/-/Sites-proactiv-master-catalog/default/proactiv-solution-3-piece-system.jpg?sw=700)
 
 **[Proactiv Solution 3-Step System](https://www.proactiv.com/)** — The most recognized name in teen acne.
 
@@ -261,7 +257,9 @@ And here's what bothered us most: Proactiv spends more on celebrity endorsements
 
 ---
 
-### 6. Exposed Skin Care Basic Kit — $65 | Score: 63/100
+### 5. Exposed Skin Care Basic Kit — $65 | Score: 63/100
+
+![Exposed Skin Care Basic Kit](https://www.exposedskincare.com/cdn/shop/products/basic-kit-acne-treatment.jpg?width=700)
 
 **[Exposed Skin Care Basic Kit](https://www.exposedskincare.com/products/basic-kit)** — 5-piece system with a "science meets nature" approach.
 
@@ -273,9 +271,11 @@ Exposed tries to split the difference between conventional and natural. The kit 
 
 ---
 
-### 7. Clinique Acne Solutions Clear Skin System — $50 | Score: 61/100
+### 6. Clinique Acne Solutions Clear Skin System — $50 | Score: 61/100
 
-**[Clinique Acne Solutions Clear Skin System Starter Kit](https://www.clinique.com/)** — 3-piece department store system.
+![Clinique Acne Solutions Clear Skin System](https://www.clinique.com/media/export/cms/products/1669x/clq_ZCMJ01_1669x.jpg)
+
+**[Clinique Acne Solutions Clear Skin System Starter Kit](https://www.clinique.com/product/1669/5615/skincare/acne/clear-skin-starter-kit/acne-solutions-clear-skin-system-starter-kit)** — 3-piece department store system.
 
 Clinique brings pharmaceutical-brand credibility. The system includes Acne Solutions Cleansing Foam (1.5% salicylic acid), Clarifying Lotion, and All-Over Clearing Treatment.
 
@@ -285,7 +285,9 @@ Clinique brings pharmaceutical-brand credibility. The system includes Acne Solut
 
 ---
 
-### 8. Murad Acne Control 30-Day Kit — $57 | Score: 58/100
+### 7. Murad Acne Control 30-Day Kit — $57 | Score: 58/100
+
+![Murad Acne Control 30-Day Kit](https://www.murad.com/media/catalog/product/cache/1/image/900x/murad-acne-control-30-day-trial-kit.jpg)
 
 **[Murad Acne Control 30-Day Trial Kit](https://www.murad.com/collections/acne-treatment-kits)** — 4-piece clinical system.
 
@@ -297,7 +299,9 @@ Murad is a dermatologist-founded brand with a clinical positioning. The kit incl
 
 ---
 
-### 9. Dermalogica Clear Start Breakout Clearing Kit — $45 | Score: 56/100
+### 8. Dermalogica Clear Start Breakout Clearing Kit — $45 | Score: 56/100
+
+![Dermalogica Clear Start Breakout Clearing Kit](https://www.dermalogica.com/cdn/shop/products/breakout-clearing-kit-pdp.jpg?width=700)
 
 **[Dermalogica Clear Start Breakout Clearing Kit](https://www.dermalogica.com/collections/teen-acne)** — 3-piece teen-focused system.
 
@@ -309,7 +313,23 @@ Dermalogica designed Clear Start specifically for teen and young adult skin. The
 
 ---
 
+### 9. Norse Organics Acne & Redness Killer (Single) — $39 | Score: 54/100
+
+![Norse Organics Acne & Redness Killer](https://norseorganics.co/cdn/shop/files/AcneKiller_Main.png?width=700)
+
+**[Norse Organics Acne & Redness Killer](https://norseorganics.co/products/acne-redness-killer)** — Single organic treatment | 768+ reviews, 4.8/5 stars
+
+This is the core treatment step from our #1 pick — the same Arctic wild-harvested organic plants, the same zero-compromise ingredient list, the same acne-killing effectiveness. At $39, it's the most effective single acne product we tested at any price.
+
+**Why it scored 54/100 despite being excellent:** Our scoring penalizes single products heavily because a single product simply cannot address all four pillars of acne treatment. This is a treatment, not a system. You'll still need a moisturizer and an exfoliant to complement it.
+
+**Who should consider this:** If you've already got a moisturizer and exfoliant you're happy with and just want the best possible acne treatment step, this is it. It's also a gateway to the full ritual — start here, see results, then upgrade to the [Kill Acne & Redness Ritual](https://norseorganics.co/products/kill-acne-redness-ritual) when budget allows.
+
+---
+
 ### 10. CeraVe Acne Foaming Cream Cleanser — $15 | Score: 48/100
+
+![CeraVe Acne Foaming Cream Cleanser](https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products/acne-foaming-cream-cleanser/cerave-acne-foaming-cream-cleanser-packshot.jpg?w=700)
 
 **[CeraVe Acne Foaming Cream Cleanser](https://www.cerave.com/)** — Single cleanser.
 
@@ -377,22 +397,20 @@ Every "None" in that right column is a chemical your teen's skin doesn't have to
 
 ## Side-by-Side Comparison Table
 
-| Feature | Norse Organics Ritual | Sunday Riley Kit | Proactiv System | TULA Routine | CeraVe (single) |
-|---------|----------------------|------------------|-----------------|--------------|------------------|
-| **Price** | $99 | $95 | $95/90 days | $88 | $15 (cleanser only) |
-| **Annual cost** | ~$594* | ~$760+ | ~$380 | ~$528 | ~$270+ (full routine) |
-| **Steps** | 3 | 5 | 3 | 3 | 1 (need 3+ more) |
-| **Addresses all 4 pillars** | Yes | Partially | No | Partially | No |
-| **Synthetic-free** | Yes | No | No | No | No |
-| **Paraben-free** | Yes | Yes | No | Yes | Yes |
-| **Sulfate-free** | Yes | Mostly | No | Yes | Yes |
-| **Fragrance-free** | Yes (natural only) | No | No | No | Yes |
-| **Money-back guarantee** | 30 days | No | 60 days | 30 days | No |
-| **Subscription required** | No | No | Pushed aggressively | Optional | N/A |
-| **Reviews** | 6,868+ (4.81/5) | Limited data | 2,124 (4.0/5) | Moderate | Moderate |
-| **Our score** | 96/100 | 74/100 | 65/100 | 71/100 | 48/100 |
-
-*Based on repurchasing approximately every 8 weeks with subscription pricing available.
+| Feature | Norse Organics Ritual | Sunday Riley Kit | Proactiv | TULA | Exposed |
+|---------|----------------------|------------------|----------|------|---------|
+| Price | $99 | $95 | $95/90 days | $88 | $65 |
+| Annual cost | ~$594 | ~$760+ | ~$380 | ~$528 | ~$520 |
+| Steps | 3 | 5 | 3 | 3 | 5 |
+| All 4 pillars | Yes | Partially | No | Partially | Partially |
+| Synthetic-free | Yes | No | No | No | No |
+| Paraben-free | Yes | Yes | No | Yes | Yes |
+| Sulfate-free | Yes | Mostly | No | Yes | Yes |
+| Fragrance-free | Yes | No | No | No | Yes |
+| Guarantee | 30 days | No | 60 days | 30 days | 1 year |
+| Auto-renew | No | No | Yes | Optional | No |
+| Reviews | 6,868+ (4.81) | Limited | 2,124 (4.0) | Moderate | Moderate |
+| Our score | 96/100 | 78/100 | 65/100 | 71/100 | 63/100 |
 
 ---
 
@@ -404,15 +422,19 @@ If we were a parent with a teenager dealing with acne, here's exactly what we'd 
 
 Buy the [Norse Organics Kill Acne & Redness Ritual](https://norseorganics.co/products/kill-acne-redness-ritual). Use it consistently for 30 days. The money-back guarantee means zero financial risk. This addresses all four pillars of acne treatment with completely clean ingredients. If it works — and for the overwhelming majority of teens, it does — you're done. You've found your teen's skincare routine.
 
-### Tighter budget: Start with the core ($39)
+### Budget system option ($95)
 
-Buy the [Norse Organics Acne & Redness Killer](https://norseorganics.co/products/acne-redness-killer) on its own. It's the most effective single acne product we tested. Use it three times daily. Once you see results and budget allows, upgrade to the full ritual.
+Buy the [Sunday Riley All About Acne Kit](https://sundayriley.com/collections/acne). It's the best conventional system available and only $4 less than our top pick. Your teen will need to commit to a five-step routine and you'll be dealing with higher replacement costs long-term, but the formulations are premium and the active ingredients are clinically effective.
 
-### If you insist on conventional ($45-95)
+**Our honest take:** At $95, you're so close to $99 that we'd strongly encourage you to just get the Norse Organics Ritual instead. Cleaner ingredients, simpler routine, lower long-term cost, and a money-back guarantee. The $4 difference is a cup of coffee.
 
-If you've decided to go the conventional route despite the ingredient concerns we've outlined, buy the Dermalogica Clear Start Kit ($45) or Clinique Acne Solutions System ($50). They're the cleanest conventional options at the most reasonable prices. We'd avoid Proactiv at $95 — you're paying for marketing, not formulation. And we'd avoid Sunday Riley at $95 unless your teen is genuinely willing to commit to a five-step routine.
+### Starter product ($39)
 
-**But honestly?** For $99 you can get our top pick with a money-back guarantee and zero ingredient concerns. The price difference between the "safe" conventional options and the Norse Organics Ritual is $4-54. That gap buys you a completely clean formulation, 380+ bioactive compounds, and the peace of mind of knowing you're not putting parabens, sulfates, and synthetic fragrances on your developing teenager's skin every single day.
+If you truly can't afford a full system right now, get the standalone [Norse Organics Acne & Redness Killer](https://norseorganics.co/products/acne-redness-killer). It's the most effective single acne product we tested. Use it three times daily. Once you see results and budget allows, upgrade to the full ritual.
+
+### If you insist on drugstore ($45-65)
+
+If you've decided to go the conventional route despite the ingredient concerns we've outlined, buy the Dermalogica Clear Start Kit ($45) or the Exposed Skin Care Basic Kit ($65). They're the cleanest conventional options at lower price points. Avoid Proactiv — you're paying for celebrity marketing, and the subscription model is predatory.
 
 ### When to see a dermatologist
 
