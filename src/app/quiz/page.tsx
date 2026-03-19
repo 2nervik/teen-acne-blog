@@ -12,10 +12,22 @@ type StepType =
   | "multi-image"
   | "input"
   | "date-input"
+  | "photo-upload"
   | "interstitial"
   | "diagnosis"
   | "timeline"
   | "result";
+
+interface AiAnalysis {
+  acneType: string;
+  severity: string;
+  severityScore: number;
+  affectedAreas: string[];
+  inflammationLevel: string;
+  scarringRisk: string;
+  keyFindings: string[];
+  recommendation: string;
+}
 
 interface Option {
   label: string;
@@ -131,11 +143,18 @@ const steps: Step[] = [
       { label: "Not sure" },
     ],
   },
-  // 8 - Interstitial 1
+  // 8 - Photo upload (AI analysis)
+  {
+    type: "photo-upload",
+    eyebrow: "OPTIONAL BUT RECOMMENDED",
+    question: "Upload a photo for AI skin analysis",
+    subtitle: "Our AI will analyze the skin and provide a personalized diagnosis. Photos are not stored.",
+  },
+  // 9 - Interstitial 1
   {
     type: "interstitial",
   },
-  // 9 - Exact age
+  // 10 - Exact age
   {
     type: "input",
     question: "What is the exact age?",
@@ -229,6 +248,10 @@ export default function QuizPage() {
   const [answers, setAnswers] = useState<Record<number, string | string[]>>({});
   const [multiSelected, setMultiSelected] = useState<string[]>([]);
   const [inputValue, setInputValue] = useState("");
+  const [aiAnalysis, setAiAnalysis] = useState<AiAnalysis | null>(null);
+  const [photoPreview, setPhotoPreview] = useState<string | null>(null);
+  const [analyzing, setAnalyzing] = useState(false);
+  const [analyzeError, setAnalyzeError] = useState<string | null>(null);
 
   const step = steps[current];
   const progress = Math.round((current / (steps.length - 1)) * 100);
@@ -265,22 +288,66 @@ export default function QuizPage() {
     );
   };
 
-  // Compute personalized data
-  const severityText =
-    answers[5] && typeof answers[5] === "string"
-      ? answers[5].includes("Severe")
-        ? "Severe"
-        : answers[5].includes("Moderate")
-        ? "Moderate"
-        : "Mild"
-      : "Moderate";
+  // Compute personalized data (use AI analysis if available, fall back to quiz answers)
+  const severityText = aiAnalysis
+    ? aiAnalysis.severity.charAt(0).toUpperCase() + aiAnalysis.severity.slice(1)
+    : answers[5] && typeof answers[5] === "string"
+    ? answers[5].includes("Severe")
+      ? "Severe"
+      : answers[5].includes("Moderate")
+      ? "Moderate"
+      : "Mild"
+    : "Moderate";
 
-  const concernText =
-    answers[4] && Array.isArray(answers[4])
-      ? (answers[4] as string[])[0]
-      : "Teen Breakouts";
+  const concernText = aiAnalysis
+    ? aiAnalysis.acneType
+    : answers[4] && Array.isArray(answers[4])
+    ? (answers[4] as string[])[0]
+    : "Teen Breakouts";
 
-  const ageText = answers[9] || "15";
+  const ageText = answers[10] || "15";
+
+  // Photo upload handler
+  const handlePhotoUpload = useCallback(
+    async (e: React.ChangeEvent<HTMLInputElement>) => {
+      const file = e.target.files?.[0];
+      if (!file) return;
+
+      // Create preview
+      const reader = new FileReader();
+      reader.onload = async (evt) => {
+        const base64 = evt.target?.result as string;
+        setPhotoPreview(base64);
+        setAnalyzing(true);
+        setAnalyzeError(null);
+
+        try {
+          const res = await fetch("/api/analyze-skin", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ image: base64 }),
+          });
+
+          if (!res.ok) throw new Error("Analysis failed");
+
+          const data = await res.json();
+          if (data.success && data.analysis) {
+            setAiAnalysis(data.analysis);
+          } else {
+            throw new Error(data.error || "Unknown error");
+          }
+        } catch (err) {
+          setAnalyzeError(
+            err instanceof Error ? err.message : "Analysis failed. You can continue without it."
+          );
+        } finally {
+          setAnalyzing(false);
+        }
+      };
+      reader.readAsDataURL(file);
+    },
+    []
+  );
 
   // ── Render Helpers ──────────────────────────────────────────────
   const renderInterstitial1 = () => (
@@ -400,18 +467,48 @@ export default function QuizPage() {
   );
 
   const renderDiagnosis = () => {
-    const severityPercent =
-      severityText === "Severe" ? 80 : severityText === "Moderate" ? 55 : 30;
+    const severityPercent = aiAnalysis
+      ? aiAnalysis.severityScore
+      : severityText === "Severe"
+      ? 80
+      : severityText === "Moderate"
+      ? 55
+      : 30;
+    const inflammationText = aiAnalysis
+      ? aiAnalysis.inflammationLevel.charAt(0).toUpperCase() +
+        aiAnalysis.inflammationLevel.slice(1)
+      : severityText === "Mild"
+      ? "Low"
+      : severityText;
+    const scarringText = aiAnalysis
+      ? aiAnalysis.scarringRisk.charAt(0).toUpperCase() +
+        aiAnalysis.scarringRisk.slice(1)
+      : "Moderate";
+
     return (
       <div className="text-center max-w-lg mx-auto">
-        <h2 className="text-2xl md:text-3xl font-bold text-[#231f20] mb-6">
-          Your Acne Profile
+        <h2 className="text-2xl md:text-3xl font-bold text-[#231f20] mb-2">
+          {aiAnalysis ? "Your AI Skin Analysis" : "Your Acne Profile"}
         </h2>
+        {aiAnalysis && (
+          <p className="text-xs text-[#02838d] font-semibold mb-4">
+            🤖 Powered by AI image analysis
+          </p>
+        )}
+
         <div className="bg-white rounded-xl border border-gray-200 p-6 text-left mb-6">
-          <span className="inline-block text-xs font-bold text-white bg-red-500 px-2.5 py-1 rounded-full mb-3">
-            {severityText === "Severe"
+          <span
+            className={`inline-block text-xs font-bold text-white px-2.5 py-1 rounded-full mb-3 ${
+              severityPercent >= 70
+                ? "bg-red-500"
+                : severityPercent >= 40
+                ? "bg-orange-500"
+                : "bg-green-500"
+            }`}
+          >
+            {severityPercent >= 70
               ? "HIGH"
-              : severityText === "Moderate"
+              : severityPercent >= 40
               ? "MODERATE"
               : "LOW"}
           </span>
@@ -419,7 +516,7 @@ export default function QuizPage() {
           <div className="w-full h-3 rounded-full bg-gradient-to-r from-green-400 via-yellow-400 to-red-500 relative mb-1">
             <div
               className="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-white border-2 border-gray-400 rounded-full shadow"
-              style={{ left: `${severityPercent}%` }}
+              style={{ left: `${Math.min(severityPercent, 95)}%` }}
             />
           </div>
           <div className="flex justify-between text-xs text-[#767474] mb-4">
@@ -428,22 +525,31 @@ export default function QuizPage() {
             <span>Severe</span>
             <span>Critical</span>
           </div>
-          <div className="bg-red-50 border-l-4 border-red-400 p-3 rounded text-sm text-[#231f20] leading-relaxed">
-            Your{" "}
-            <strong>{concernText}</strong> combined with your skin profile
-            indicates {severityText} acne severity. Without proper treatment,
-            breakouts can worsen and leave lasting scars.
-          </div>
+
+          {aiAnalysis && aiAnalysis.keyFindings.length > 0 ? (
+            <div className="bg-blue-50 border-l-4 border-[#02838d] p-3 rounded text-sm text-[#231f20] leading-relaxed space-y-1">
+              <p className="font-semibold text-xs text-[#02838d] uppercase tracking-wider mb-1">
+                AI Findings
+              </p>
+              {aiAnalysis.keyFindings.map((finding, i) => (
+                <p key={i} className="text-sm">• {finding}</p>
+              ))}
+            </div>
+          ) : (
+            <div className="bg-red-50 border-l-4 border-red-400 p-3 rounded text-sm text-[#231f20] leading-relaxed">
+              Your <strong>{concernText}</strong> combined with your skin profile
+              indicates {severityText} acne severity. Without proper treatment,
+              breakouts can worsen and leave lasting scars.
+            </div>
+          )}
         </div>
+
         <div className="bg-white rounded-xl border border-gray-200 divide-y divide-gray-100 mb-6">
           {[
-            ["Severity Level", severityText, severityText !== "Mild"],
-            ["Problem Areas", concernText, false],
-            [
-              "Inflammation Risk",
-              severityText === "Mild" ? "Low" : severityText,
-              severityText !== "Mild",
-            ],
+            ["Acne Type", concernText, false],
+            ["Severity Level", severityText, severityPercent >= 40],
+            ["Inflammation Risk", inflammationText, inflammationText !== "Low"],
+            ["Scarring Risk", scarringText, scarringText !== "Low"],
             ["Recovery Potential", "High", false],
           ].map(([label, value, isOrange]) => (
             <div key={label as string} className="flex justify-between px-5 py-3 text-sm">
@@ -458,9 +564,20 @@ export default function QuizPage() {
             </div>
           ))}
         </div>
+
+        {aiAnalysis?.recommendation && (
+          <div className="bg-[#fbf5ed] border border-amber-200 rounded-lg p-4 mb-4 text-left">
+            <p className="text-sm text-[#231f20]">
+              <strong>💡 AI Recommendation:</strong> {aiAnalysis.recommendation}
+            </p>
+          </div>
+        )}
+
         <p className="text-sm text-[#767474] mb-4">
-          Acne is not permanent & can be treated — click &apos;Continue&apos; to
-          discover how.
+          {aiAnalysis
+            ? "Your AI analysis will be used to personalize your routine recommendation."
+            : "Acne is not permanent & can be treated."}{" "}
+          Click &apos;Continue&apos; to discover your plan.
         </p>
         <button
           onClick={() => advance()}
@@ -718,11 +835,106 @@ export default function QuizPage() {
     </div>
   );
 
+  const renderPhotoUpload = () => (
+    <div className="text-center max-w-lg mx-auto">
+      <p className="text-xs font-bold text-[#02838d] tracking-wider mb-2">
+        OPTIONAL BUT RECOMMENDED
+      </p>
+      <h2 className="text-2xl md:text-3xl font-bold text-[#231f20] mb-2">
+        Upload a photo for AI skin analysis
+      </h2>
+      <p className="text-sm text-[#767474] mb-6">
+        Our AI will analyze the skin and provide a personalized diagnosis.
+        Photos are processed securely and never stored.
+      </p>
+
+      {!photoPreview ? (
+        <label className="block cursor-pointer">
+          <div className="border-2 border-dashed border-[#02838d] rounded-xl p-10 bg-white hover:bg-[#02838d]/5 transition-colors">
+            <div className="text-4xl mb-3">📸</div>
+            <p className="text-[#231f20] font-semibold mb-1">
+              Tap to upload a photo
+            </p>
+            <p className="text-xs text-[#767474]">
+              Take a clear, well-lit photo of the affected area
+            </p>
+          </div>
+          <input
+            type="file"
+            accept="image/*"
+            capture="environment"
+            className="hidden"
+            onChange={handlePhotoUpload}
+          />
+        </label>
+      ) : (
+        <div className="mb-6">
+          <div className="relative inline-block">
+            <img
+              src={photoPreview}
+              alt="Uploaded skin photo"
+              className="w-48 h-48 object-cover rounded-xl border-2 border-gray-200"
+            />
+            {analyzing && (
+              <div className="absolute inset-0 bg-black/50 rounded-xl flex items-center justify-center">
+                <div className="text-center">
+                  <div className="w-8 h-8 border-3 border-white border-t-transparent rounded-full animate-spin mx-auto mb-2" />
+                  <p className="text-white text-xs font-semibold">Analyzing...</p>
+                </div>
+              </div>
+            )}
+          </div>
+
+          {aiAnalysis && (
+            <div className="mt-4 bg-green-50 border border-green-200 rounded-lg p-4 text-left">
+              <div className="flex items-center gap-2 mb-2">
+                <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+                <p className="text-green-700 font-semibold text-sm">
+                  AI Analysis Complete
+                </p>
+              </div>
+              <p className="text-sm text-[#231f20]">
+                <strong>Type:</strong> {aiAnalysis.acneType}
+              </p>
+              <p className="text-sm text-[#231f20]">
+                <strong>Severity:</strong> {aiAnalysis.severity} ({aiAnalysis.severityScore}/100)
+              </p>
+              {aiAnalysis.keyFindings.length > 0 && (
+                <p className="text-xs text-[#767474] mt-2 italic">
+                  {aiAnalysis.keyFindings[0]}
+                </p>
+              )}
+              <p className="text-xs text-[#767474] mt-2">
+                ⚕️ For educational purposes only — not a medical diagnosis
+              </p>
+            </div>
+          )}
+
+          {analyzeError && (
+            <div className="mt-4 bg-amber-50 border border-amber-200 rounded-lg p-3 text-left">
+              <p className="text-sm text-amber-700">{analyzeError}</p>
+            </div>
+          )}
+        </div>
+      )}
+
+      <button
+        onClick={() => advance()}
+        disabled={analyzing}
+        className="mt-6 w-full bg-[#02838d] disabled:bg-gray-300 hover:bg-[#026a73] text-white font-bold text-base py-4 rounded-lg transition-colors"
+      >
+        {aiAnalysis ? "CONTINUE WITH AI DIAGNOSIS" : analyzing ? "ANALYZING..." : "SKIP — CONTINUE WITHOUT PHOTO"}
+      </button>
+    </div>
+  );
+
   // ── Main Render ─────────────────────────────────────────────────
   const renderStep = () => {
     switch (step.type) {
       case "interstitial":
-        return current === 8 ? renderInterstitial1() : renderInterstitial2();
+        return current === 9 ? renderInterstitial1() : renderInterstitial2();
+      case "photo-upload":
+        return renderPhotoUpload();
       case "diagnosis":
         return renderDiagnosis();
       case "timeline":
