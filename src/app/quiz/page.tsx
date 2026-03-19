@@ -45,9 +45,16 @@ interface Step {
   content?: React.ReactNode;
 }
 
+// Step IDs for skip logic
+const STEP_PHOTO = 1;
+const STEP_SKIN_SEVERITY = 2; // first skippable if AI
+const STEP_SENSITIVITY = 7;   // last skippable if AI
+const STEP_INTERSTITIAL1 = 8;
+const STEP_DIAGNOSIS = 10;
+
 // ── Quiz Data ───────────────────────────────────────────────────────
 const steps: Step[] = [
-  // 0 - Gender
+  // 0 - Who is this for
   {
     type: "single",
     eyebrow: "LET'S FIND YOUR TEEN'S PERFECT ROUTINE",
@@ -59,19 +66,11 @@ const steps: Step[] = [
       { label: "Myself (I'm an adult)" },
     ],
   },
-  // 1 - Age group
+  // 1 - Photo upload (AI analysis) — MOVED TO STEP 2
   {
-    type: "single",
-    question: "What age group?",
-    subtitle: "This helps us personalize the acne plan",
-    options: [
-      { label: "10 – 13" },
-      { label: "14 – 17" },
-      { label: "18 – 24" },
-      { label: "25+" },
-    ],
+    type: "photo-upload",
   },
-  // 2 - Skin severity visual
+  // 2 - Skin severity visual (skipped if AI)
   {
     type: "single",
     question: "Which best describes the current skin?",
@@ -83,7 +82,7 @@ const steps: Step[] = [
       { label: "Cystic & painful" },
     ],
   },
-  // 3 - Dream skin
+  // 3 - Dream skin (skipped if AI)
   {
     type: "single",
     question: "What does dream skin look like?",
@@ -94,7 +93,7 @@ const steps: Step[] = [
       { label: "Scar-free & confident" },
     ],
   },
-  // 4 - Main concerns (multi)
+  // 4 - Main concerns (skipped if AI)
   {
     type: "multi",
     eyebrow: "SELECT ALL THAT APPLY",
@@ -109,7 +108,7 @@ const steps: Step[] = [
       { label: "Confidence issues" },
     ],
   },
-  // 5 - Severity daily
+  // 5 - Severity daily (skipped if AI)
   {
     type: "single",
     question: "How severe is the acne on most days?",
@@ -119,7 +118,7 @@ const steps: Step[] = [
       { label: "Severe — painful, inflamed acne that affects daily life" },
     ],
   },
-  // 6 - Skin tone
+  // 6 - Skin tone (skipped if AI)
   {
     type: "single",
     question: "What best describes the skin tone?",
@@ -133,7 +132,7 @@ const steps: Step[] = [
       { label: "Not sure" },
     ],
   },
-  // 7 - Sensitivity
+  // 7 - Sensitivity (skipped if AI)
   {
     type: "single",
     question: "Is the skin sensitive or easily irritated?",
@@ -143,18 +142,11 @@ const steps: Step[] = [
       { label: "Not sure" },
     ],
   },
-  // 8 - Photo upload (AI analysis)
-  {
-    type: "photo-upload",
-    eyebrow: "OPTIONAL BUT RECOMMENDED",
-    question: "Upload a photo for AI skin analysis",
-    subtitle: "Our AI will analyze the skin and provide a personalized diagnosis. Photos are not stored.",
-  },
-  // 9 - Interstitial 1
+  // 8 - Interstitial 1
   {
     type: "interstitial",
   },
-  // 10 - Exact age
+  // 9 - Exact age
   {
     type: "input",
     question: "What is the exact age?",
@@ -436,9 +428,15 @@ export default function QuizPage() {
       }
       setMultiSelected([]);
       setInputValue("");
-      setCurrent((prev) => Math.min(prev + 1, steps.length - 1));
+
+      // If we're on the photo step and AI analysis succeeded, skip diagnosis questions
+      if (current === STEP_PHOTO && aiAnalysis) {
+        setCurrent(STEP_INTERSTITIAL1); // jump to interstitial, skipping steps 2-7
+      } else {
+        setCurrent((prev) => Math.min(prev + 1, steps.length - 1));
+      }
     },
-    [current]
+    [current, aiAnalysis]
   );
 
   const handleMultiContinue = useCallback(() => {
@@ -1022,14 +1020,14 @@ export default function QuizPage() {
   const renderPhotoUpload = () => (
     <div className="text-center max-w-lg mx-auto">
       <p className="text-xs font-bold text-[#02838d] tracking-wider mb-2">
-        OPTIONAL BUT RECOMMENDED
+        GET AN INSTANT AI DIAGNOSIS
       </p>
       <h2 className="text-2xl md:text-3xl font-bold text-[#231f20] mb-2">
         Upload a photo for AI skin analysis
       </h2>
       <p className="text-sm text-[#767474] mb-6">
-        Our AI will analyze the skin and provide a personalized diagnosis.
-        Photos are processed securely and never stored.
+        Our AI will analyze the skin, identify the acne type, and create a
+        personalized treatment plan — skipping unnecessary questions.
       </p>
 
       {!photoPreview ? (
@@ -1119,13 +1117,47 @@ export default function QuizPage() {
         </div>
       )}
 
+      {/* Continue button — only active after upload */}
       <button
         onClick={() => advance()}
-        disabled={analyzing}
-        className="mt-6 w-full bg-[#02838d] disabled:bg-gray-300 hover:bg-[#026a73] text-white font-bold text-base py-4 rounded-lg transition-colors"
+        disabled={analyzing || !aiAnalysis}
+        className={`mt-6 w-full font-bold text-base py-4 rounded-lg transition-colors ${
+          aiAnalysis
+            ? "bg-[#02838d] hover:bg-[#026a73] text-white"
+            : "bg-gray-300 text-gray-500 cursor-not-allowed"
+        }`}
       >
-        {aiAnalysis ? "CONTINUE WITH AI DIAGNOSIS" : analyzing ? "ANALYZING..." : "SKIP — CONTINUE WITHOUT PHOTO"}
+        {aiAnalysis
+          ? "CONTINUE WITH AI DIAGNOSIS →"
+          : analyzing
+          ? "ANALYZING..."
+          : "UPLOAD A PHOTO TO CONTINUE"}
       </button>
+
+      {/* Skip link */}
+      {!aiAnalysis && !analyzing && (
+        <button
+          onClick={() => {
+            setCurrent((prev) => prev + 1); // go to step 2 (manual questions)
+          }}
+          className="mt-3 text-sm text-[#767474] hover:text-[#231f20] transition-colors underline underline-offset-2"
+        >
+          Skip — I prefer not to upload a photo
+        </button>
+      )}
+
+      {/* Privacy note */}
+      <div className="mt-6 flex items-start gap-2 text-left max-w-sm mx-auto">
+        <svg className="w-4 h-4 text-[#02838d] shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+          <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
+        </svg>
+        <p className="text-xs text-[#767474] leading-relaxed">
+          <strong className="text-[#231f20]">Your privacy is protected.</strong>{" "}
+          Photos are analyzed in real-time and immediately discarded. They are
+          never stored, saved, or shared with anyone. Analysis happens securely
+          on our servers and is deleted instantly after processing.
+        </p>
+      </div>
     </div>
   );
 
@@ -1133,7 +1165,7 @@ export default function QuizPage() {
   const renderStep = () => {
     switch (step.type) {
       case "interstitial":
-        return current === 9 ? renderInterstitial1() : renderInterstitial2();
+        return current === STEP_INTERSTITIAL1 ? renderInterstitial1() : renderInterstitial2();
       case "photo-upload":
         return renderPhotoUpload();
       case "diagnosis":
