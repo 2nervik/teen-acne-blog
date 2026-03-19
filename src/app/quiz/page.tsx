@@ -531,6 +531,12 @@ export default function QuizPage() {
           const data = await res.json();
           if (data.success && data.analysis) {
             setAiAnalysis(data.analysis);
+            // Auto-advance after successful analysis
+            setTimeout(() => {
+              setAnalyzing(false);
+              setCurrent(STEP_INTERSTITIAL1);
+            }, 1500); // Brief pause to show "Analysis complete" before advancing
+            return;
           } else {
             throw new Error(data.error || "Unknown error");
           }
@@ -1079,60 +1085,38 @@ export default function QuizPage() {
         </label>
       ) : (
         <div className="mb-6">
-          {/* Show annotated image if available, otherwise raw preview */}
           <div className="relative inline-block">
-            {annotatedImage ? (
-              <img
-                src={annotatedImage}
-                alt="AI-analyzed skin scan"
-                className="w-full max-w-md mx-auto rounded-xl border-2 border-[#02838d] shadow-lg"
-              />
-            ) : (
-              <img
-                src={photoPreview}
-                alt="Uploaded skin photo"
-                className="w-48 h-48 object-cover rounded-xl border-2 border-gray-200"
-              />
-            )}
+            <img
+              src={photoPreview}
+              alt="Uploaded skin photo"
+              className="w-48 h-48 object-cover rounded-xl border-2 border-gray-200"
+            />
             {analyzing && (
               <div className="absolute inset-0 bg-black/60 rounded-xl flex items-center justify-center">
                 <div className="text-center">
                   <div className="w-10 h-10 border-3 border-[#02838d] border-t-transparent rounded-full animate-spin mx-auto mb-3" />
-                  <p className="text-white text-sm font-semibold">Analyzing skin...</p>
-                  <p className="text-white/60 text-xs mt-1">AI is examining the image</p>
+                  <p className="text-white text-sm font-semibold">Analyzing...</p>
                 </div>
               </div>
             )}
           </div>
 
+          {analyzing && (
+            <div className="mt-4 text-center">
+              <p className="text-sm text-[#231f20] font-semibold">
+                🔬 AI is analyzing the skin...
+              </p>
+              <p className="text-xs text-[#767474] mt-1">
+                This usually takes a few seconds
+              </p>
+            </div>
+          )}
+
           {aiAnalysis && (
-            <div className="mt-4 bg-white border border-gray-200 rounded-lg p-4 text-left shadow-sm">
-              <div className="flex items-center gap-2 mb-3">
-                <span className="text-lg">🔬</span>
-                <p className="text-[#02838d] font-bold text-sm">
-                  AI Analysis Complete
-                </p>
-              </div>
-              <div className="grid grid-cols-2 gap-2 text-sm mb-3">
-                <div className="bg-gray-50 rounded-lg p-2.5">
-                  <p className="text-xs text-[#767474]">Type</p>
-                  <p className="font-semibold text-[#231f20] text-xs">{aiAnalysis.acneType}</p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-2.5">
-                  <p className="text-xs text-[#767474]">Severity</p>
-                  <p className="font-semibold text-[#231f20] text-xs">{aiAnalysis.severityScore}/100</p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-2.5">
-                  <p className="text-xs text-[#767474]">Inflammation</p>
-                  <p className="font-semibold text-[#231f20] text-xs capitalize">{aiAnalysis.inflammationLevel}</p>
-                </div>
-                <div className="bg-gray-50 rounded-lg p-2.5">
-                  <p className="text-xs text-[#767474]">Scarring Risk</p>
-                  <p className="font-semibold text-[#231f20] text-xs capitalize">{aiAnalysis.scarringRisk}</p>
-                </div>
-              </div>
-              <p className="text-xs text-[#767474] italic">
-                ⚕️ For educational purposes only — not a medical diagnosis
+            <div className="mt-4 flex items-center justify-center gap-2">
+              <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
+              <p className="text-green-700 font-semibold text-sm">
+                Analysis complete — loading your results...
               </p>
             </div>
           )}
