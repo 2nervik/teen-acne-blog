@@ -13,6 +13,24 @@ export const metadata: Metadata = {
   title: "Teen Acne Solutions | Evidence-Based Skincare Tips",
   description:
     "Medically reviewed tips and advice for moms and teens dealing with acne. Evidence-based skincare routines, product recommendations, and lifestyle tips.",
+  metadataBase: new URL("https://teenacnesolutions.com"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Teen Acne Solutions | Evidence-Based Skincare Tips",
+    description:
+      "Medically reviewed tips and advice for moms and teens dealing with acne. Evidence-based skincare routines, product recommendations, and lifestyle tips.",
+    url: "https://teenacnesolutions.com",
+    siteName: "Teen Acne Solutions",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Teen Acne Solutions",
+    description:
+      "Medically reviewed tips and advice for moms and teens dealing with acne.",
+  },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },

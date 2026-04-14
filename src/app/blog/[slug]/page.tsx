@@ -21,9 +21,43 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = await getPostBySlug(slug);
   if (!post) return { title: "Post Not Found" };
+
+  const url = `https://teenacnesolutions.com/blog/${slug}`;
+
   return {
     title: `${post.title} | Teen Acne Solutions`,
     description: post.excerpt,
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url,
+      siteName: "Teen Acne Solutions",
+      type: "article",
+      publishedTime: post.date,
+      modifiedTime: post.updatedDate || post.date,
+      authors: [post.author],
+      ...(post.featuredImage && {
+        images: [
+          {
+            url: `https://teenacnesolutions.com${post.featuredImage}`,
+            width: 800,
+            height: 600,
+            alt: post.title,
+          },
+        ],
+      }),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      ...(post.featuredImage && {
+        images: [`https://teenacnesolutions.com${post.featuredImage}`],
+      }),
+    },
   };
 }
 
@@ -38,8 +72,44 @@ export default async function BlogPost({
 
   const relatedPosts = getRelatedPosts(slug, post.category);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    dateModified: post.updatedDate || post.date,
+    author: {
+      "@type": "Person",
+      name: post.author,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Teen Acne Solutions",
+      url: "https://teenacnesolutions.com",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://teenacnesolutions.com/blog/${slug}`,
+    },
+    ...(post.featuredImage && {
+      image: `https://teenacnesolutions.com${post.featuredImage}`,
+    }),
+    ...(post.reviewedBy && {
+      reviewedBy: {
+        "@type": "Person",
+        name: post.reviewedBy,
+        jobTitle: post.reviewerCredentials,
+      },
+    }),
+  };
+
   return (
     <div className="max-w-[1100px] mx-auto px-5 md:px-[55px] py-8 md:py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="flex flex-col lg:flex-row gap-12">
         {/* Main content column */}
         <article className="flex-1 min-w-0 max-w-[750px]">
