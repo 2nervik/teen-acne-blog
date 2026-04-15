@@ -476,11 +476,6 @@ export default function QuizPage() {
 
   const handleInputContinue = useCallback(() => {
     if (!inputValue.trim()) return;
-    // Fix #1: Validate age input (step 9 is the age question)
-    if (current === 9) {
-      const age = parseInt(inputValue, 10);
-      if (isNaN(age) || age < 8 || age > 25) return; // silently reject invalid ages
-    }
     setAnswers((prev) => ({ ...prev, [current]: inputValue }));
     setInputValue("");
     setCurrent((prev) => prev + 1);
@@ -1368,12 +1363,7 @@ export default function QuizPage() {
         return renderTimeline();
       case "result":
         return renderResult();
-      case "input": {
-        const isAgeStep = current === 9;
-        const ageVal = isAgeStep ? parseInt(inputValue, 10) : NaN;
-        const ageInvalid = isAgeStep && inputValue.trim() !== "" && (isNaN(ageVal) || ageVal < 8 || ageVal > 25);
-        const inputDisabled = !inputValue.trim() || (isAgeStep && (isNaN(ageVal) || ageVal < 8 || ageVal > 25));
-
+      case "input":
         return (
           <div className="text-center max-w-md mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-[#231f20] mb-2">
@@ -1387,29 +1377,18 @@ export default function QuizPage() {
               placeholder={step.inputPlaceholder}
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
-              min={isAgeStep ? 8 : undefined}
-              max={isAgeStep ? 25 : undefined}
-              className={`w-64 mx-auto block border-2 rounded-lg px-4 py-3 text-center text-lg focus:outline-none focus:ring-2 mb-1 ${
-                ageInvalid
-                  ? "border-red-400 focus:ring-red-200"
-                  : "border-[#02838d] focus:ring-[#02838d]/30"
-              }`}
+              className="w-64 mx-auto block border-2 border-[#02838d] rounded-lg px-4 py-3 text-center text-lg focus:outline-none focus:ring-2 focus:ring-[#02838d]/30 mb-4"
               onKeyDown={(e) => e.key === "Enter" && handleInputContinue()}
             />
-            {ageInvalid && (
-              <p className="text-xs text-red-500 mb-3">Please enter an age between 8 and 25</p>
-            )}
-            {!ageInvalid && <div className="mb-3" />}
             <button
               onClick={handleInputContinue}
-              disabled={inputDisabled}
+              disabled={!inputValue.trim()}
               className="w-64 mx-auto block bg-[#02838d] disabled:bg-gray-300 text-white font-bold py-3 rounded-lg transition-colors"
             >
               CONTINUE
             </button>
           </div>
         );
-      }
       case "multi":
         return (
           <div className="text-center max-w-lg mx-auto">
